@@ -43,9 +43,9 @@
 
 **Elfogadási kritériumok:**
 * A megjelenítendő adatok:
-		név
-		telefonszám
-		megyék és azon belüli városok, ahol a felhasználó munkát vállal
+		- név
+		- telefonszám
+		- megyék és azon belüli városok, ahol a felhasználó munkát vállal
 ---
 **2. agilis felhasználói történet:**
 > Minden listaelem esetében megjeleníthető egy részletes adatlap.
