@@ -52,13 +52,13 @@
 
 **Elfogadási kritériumok:**
 * A megjelenítendő adatok:
-		név
-		telefonszám
-		felhasználó típusa: cég | egyéni vállalkozó | magánszemély
-		megyék és azon belüli városok, ahol a felhasználó munkát vállal
-		elérhetőség: napok, és azokon belül egy időintervallum
-		bemutatkozás
-		értékelhető-e?
+		- név
+		- telefonszám
+		- felhasználó típusa: cég | egyéni vállalkozó | magánszemély
+		- megyék és azon belüli városok, ahol a felhasználó munkát vállal
+		- elérhetőség: napok, és azokon belül egy időintervallum
+		- bemutatkozás
+		- értékelhető-e?
 ---
 **3. agilis felhasználói történet:**
 > A lista elemei szerkeszthetők.
@@ -135,8 +135,8 @@ magas
 - A Dashboard esetében lehetőséget lehet biztosítani az adminisztrátori profil kezelésére. Azaz meg lehet valósítani, hogy az adminisztrátor jelszót tudjon változtatni, valamint hogy ki lehessen jelentkezni az adminisztrátori fiókból.
 
 - Az alkalmazás még további hasznos aloldalakkal bővíthető, például:
-		Telefonkönyv ---> egy név-telefonszám listában lehet keresni mindkét értékre
-		Cégek ---> csak a cégként regisztrálókat listázza
-		Értékelhetők ---> csak a más felhasználók által értékelhető mestereket listázza
+		- Telefonkönyv ---> egy név-telefonszám listában lehet keresni mindkét értékre
+		- Cégek ---> csak a cégként regisztrálókat listázza
+		- Értékelhetők ---> csak a más felhasználók által értékelhető mestereket listázza
 		
 - Lapozók hozzáadhatók a hosszú listákat tartalmazó oldalakhoz.
