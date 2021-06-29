@@ -29,4 +29,4 @@ A megadott Docker container indítása és inicializálása.
 
 ## **Linkek:**  
 
-- [A User Story (adminisztrátori szerepkör) itt érhető el.](https://github.com/kss-nn/mesterember-app/blob/main/README.md)
+- [User Story (adminisztrátori szerepkör)](https://github.com/kss-nn/mesterember-app/blob/main/README.md)
