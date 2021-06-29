@@ -4,7 +4,7 @@ Az alkalmazás feladata, hogy mesteremberek elérhetőségi és egyéb adatait n
 
 ## **2. Az alkalmazás telepítése**
 
-- Klónozza le a célgépre a 'mesterember-app' nevű GitHub repository tartalmát.
+- Klónozza le a célgépre a `mesterember-app` nevű GitHub repository tartalmát.
 - Telepítse az alkalmazás függőségeit az `npm i` paranccsal.
 - Ha további fejlesztések szükségesek, akkor telepíteni kell az Angular keretrendszert is az `npm i -g @angular/cli` paranccsal.
 
