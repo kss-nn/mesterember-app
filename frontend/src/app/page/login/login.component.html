@@ -5,7 +5,7 @@
       <p class="text-secondary mb-4"><small>alkalmazás: Mesterember App</small>
       <p>
       <p *ngIf="emailField.invalid && emailField.touched" class="error-message">
-        Kérjük, adjon meg egy érvényes e-mailcímet.</p>
+        Kérjük, adjon meg egy érvényes e-mail címet.</p>
       <label for="inputEmail" class="sr-only">E-mail cím</label>
       <input type="email" name="email" [(ngModel)]="user.email" #emailField="ngModel" email id="inputEmail"
         class="form-control mb-2" placeholder="E-mail cím" required autofocus>

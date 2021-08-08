@@ -3,39 +3,61 @@
     <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)" class="form pt-5">
       <!-- ALAPADATOK -->
       <fieldset class="mb-5">
-        <legend class="w-auto text-center">Alapadatok</legend>
+        <legend class="w-auto text-center pb-2">Alapadatok</legend>
         <!-- Utónév -->
         <div class="form-row form-group">
           <div class="col">
-            <label for="first_name" class="text-center align-bottom">Utónév</label>
+            <label for="first_name" class="text-center">Utónév</label>
+            <span class="star"> *</span>
           </div>
           <div class="col">
-            <input type="text" [(ngModel)]="user.first_name" name="first_name" class="form-control">
+            <input type="text"
+              [(ngModel)]="user.first_name"
+              #firstNameField="ngModel"
+              name="first_name" class="form-control"
+              required pattern="[A-ű].{1,}">
           </div>
         </div>
+        <p *ngIf="firstNameField.invalid && firstNameField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy valós nevet.</p>
         <!-- Vezetéknév -->
         <div class="form-row form-group">
           <div class="col">
-            <label for="last_name" class="text-center align-bottom">Vezetéknév</label>
+            <label for="last_name" class="text-center">Vezetéknév</label>
+            <span class="star"> *</span>
           </div>
           <div class="col">
-            <input type="text" [(ngModel)]="user.last_name" name="last_name" class="form-control">
+            <input type="text"
+              [(ngModel)]="user.last_name"
+              #lastNameField="ngModel"
+              name="last_name"
+              class="form-control"
+              required pattern="[A-ű].{1,}">
           </div>
         </div>
+        <p *ngIf="lastNameField.invalid && lastNameField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy valós nevet.</p>
         <!-- Szakterület -->
-        <div class="form-group pt-2"><label for="skill">Szakterület</label><input
+        <div class="form-group pt-2">
+          <label for="skill">Szakterület</label>
+          <input
           type="text"
           [(ngModel)]="user.skill"
           name="skill"
           class="form-control"
         ></div>
         <!-- Felhasználó típusa -->
-        <div class="form-group pt-2"><label for="user_type">Felhasználó típusa</label>
+        <div class="form-group pt-2">
+          <label for="user_type">Felhasználó típusa</label>
+          <span class="star"> *</span>
           <select
             type="text"
             [(ngModel)]="user.user_type"
             name="user_type"
             class="form-control"
+            required
           >
             <option value="cég">cég</option>
             <option value="egyéni vállalkozó">egyéni vállalkozó</option>
@@ -47,12 +69,22 @@
       <fieldset class="mb-5">
         <legend class="w-auto text-center">Elérhetőségi adatok</legend>
         <!-- E-mail cím -->
-        <div class="form-group pt-2"><label for="email">E-mail cím</label><input
+        <div class="form-group pt-2">
+          <label for="email">E-mail cím</label>
+          <span class="star"> *</span>
+          <input
             type="email"
             [(ngModel)]="user.email"
+            #emailField="ngModel"
             name="email"
             class="form-control"
-          ></div>
+            email
+            required
+          >
+        </div>
+        <p *ngIf="emailField.invalid && emailField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy érvényes e-mail címet.</p>
         <!-- Telefonszám -->
         <div class="form-group pt-2"><label for="phone_number">Telefonszám</label><input
             type="text"
@@ -61,19 +93,48 @@
             class="form-control"
           ></div>
         <!-- Megye -->
-        <div class="form-group pt-2"><label for="counties">Megye</label><input
+        <div class="form-group pt-2">
+          <label for="counties">Megye</label>
+          <select
             type="text"
             [(ngModel)]="user.counties"
             name="counties"
             class="form-control"
-          ></div>
+          >
+            <option value="Bács-Kiskun">Bács-Kiskun</option>
+            <option value="Baranya">Baranya</option>
+            <option value="Békés">Békés</option>
+            <option value="Borsod-Abaúj-Zemplén">Borsod-Abaúj-Zemplén</option>
+            <option value="Csongrád-Csanád">Csongrád-Csanád</option>
+            <option value="Fejér">Fejér</option>
+            <option value="Győr-Moson-Sopron">Győr-Moson-Sopron</option>
+            <option value="Hajdú-Bihar">Hajdú-Bihar</option>
+            <option value="Heves">Heves</option>
+            <option value="Jász-Nagykun-Szolnok">Jász-Nagykun-Szolnok</option>
+            <option value="Komárom-Esztergom">Komárom-Esztergom</option>
+            <option value="Nógrád">Nógrád</option>
+            <option value="Pest">Pest</option>
+            <option value="Somogy">Somogy</option>
+            <option value="Szabolcs-Szatmár-Bereg">Szabolcs-Szatmár-Bereg</option>
+            <option value="Tolna">Tolna</option>
+            <option value="Vas">Vas</option>
+            <option value="Veszprém">Veszprém</option>
+            <option value="Zala">Zala</option>
+          </select>
+        </div>
         <!-- Település -->
         <div class="form-group pt-2"><label for="cities">Település</label><input
             type="text"
             [(ngModel)]="user.cities"
+            #citiesField="ngModel"
             name="cities"
             class="form-control"
-          ></div>
+            pattern="[A-ű].{1,}"
+          >
+        </div>
+        <p *ngIf="citiesField.invalid && citiesField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy valós települést.</p>
         <!-- Munkanapok -->
         <div class="form-group pt-2"><label for="form-check">Munkanapok</label><br>
           <div name="form-check" class="form-check">
@@ -195,26 +256,31 @@
       <fieldset class="mb-5">
         <legend class="w-auto text-center">Biztonság</legend>
         <!-- Jelszó -->
-        <div class="form-group pt-2"><label for="password">Jelszó</label>
-          <span id="password-info" class="font-italic">
-            <small>
-              <i class="fa fa-info-circle" aria-hidden="true"></i>
-               Adatmódosításkor kötelező megadni!
-            </small>
-          </span>
+        <div class="form-group pt-2">
+          <label for="password">Jelszó</label>
+          <span class="star"> *</span>
           <input
             type="password"
             [(ngModel)]="user.password"
+            #passwordField="ngModel"
             name="password"
             class="form-control"
-          ></div>
+            required
+          >
+        </div>
+        <p *ngIf="passwordField.invalid && passwordField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy jelszót.</p>
         <!-- Jogosultsági szint -->
-        <div class="form-group pt-2 pb-3"><label for="role">Jogosultsági szint</label>
+        <div class="form-group pt-2 pb-3">
+          <label for="role">Jogosultsági szint</label>
+          <span class="star"> *</span>
           <select
             type="text"
             [(ngModel)]="user.role"
             name="role"
             class="form-control"
+            required
           >
             <option value="1">1 - felhasználó</option>
             <option value="2">2 - szerkesztő</option>
@@ -223,7 +289,8 @@
         </div>
       </fieldset>
       <!-- Mentés gomb -->
-      <button type="submit" class="btn btn-primary btn-block">
+      <button type="submit" class="btn btn-primary btn-block"
+        [disabled]="userForm.invalid">
         Mentés
       </button>
     </form>

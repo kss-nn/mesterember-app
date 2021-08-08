@@ -15,11 +15,16 @@ fieldset {
   outline-offset: 20px;
 }
 
+.star {
+  color: red
+}
+
 #hyphen {
   padding-top: 5px;
 }
 
-#password-info {
-  padding-left: 6px;
-  color: orangered;
+.error-message {
+  color: red;
+  font-size: 0.7em;
+  margin-bottom: 1rem;
 }
