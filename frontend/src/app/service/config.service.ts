@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { User } from '../model/user';
-import { UserService } from './user.service';
 
 @Injectable({
   providedIn: 'root'
@@ -18,7 +17,6 @@ export class ConfigService {
   ];
 
   userColumns: { key: string | string[], label: string }[] = [
-    { key: '_id', label: '#' },
     { key: 'first_name', label: 'Utónév' },
     { key: 'last_name', label: 'Vezetéknév' },
     { key: 'skill', label: 'Szakterület' },

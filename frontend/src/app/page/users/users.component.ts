@@ -13,6 +13,8 @@ export class UsersComponent implements OnInit {
 
   list$: Observable<User | User[]> = this.userService.get();
   cols: any[] = this.config.userColumns;
+  phrase: string = '';
+  filterKey: string = 'id';
 
   constructor(
     private userService: UserService,
@@ -27,6 +29,18 @@ export class UsersComponent implements OnInit {
       userResponse => console.log(userResponse),
       err => console.error(err)
     );
+  }
+
+  onChangePhrase(event: Event): void {
+    this.phrase = (event.target as HTMLInputElement).value;
+  }
+
+  onChangeKey(event: Event): void {
+    this.filterKey = (event.target as HTMLInputElement).value;
+  }
+
+  setDefault(key): boolean {
+    return key === '_id' ? true : false;
   }
 
 }

@@ -1,13 +1,13 @@
 export class User {
-  _id?: string | number;
-  first_name?: string;
-  last_name?: string;
-  user_type?: string;
-  skill?: string;
-  email?: string;
-  phone_number?: string;
-  counties: string[];
-  cities: string[];
+  _id?: string | number = '';
+  first_name?: string = '';
+  last_name?: string = '';
+  user_type?: string = '';
+  skill?: string = '';
+  email?: string = '';
+  phone_number?: string = '';
+  counties: string[] = [];
+  cities: string[] = [];
   working_days?: {
     "monday": boolean,
     "tuesday": boolean,
@@ -21,7 +21,7 @@ export class User {
     "start": number,
     "end": number
   };
-  password?: string;
-  role?: number;
-  token?: string;
+  password?: string = '';
+  role?: number = 1;
+  token?: string = '';
 }

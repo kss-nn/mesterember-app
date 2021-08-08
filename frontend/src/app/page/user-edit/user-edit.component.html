@@ -1,18 +1,9 @@
 <div class="row">
   <div class="col-12 col-md-6 offset-md-3">
-    <form *ngIf="user" #userForm="ngForm" (ngSubmit)="onSubmit(userForm)" class="form pt-5">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)" class="form pt-5">
       <!-- ALAPADATOK -->
       <fieldset class="mb-5">
         <legend class="w-auto text-center">Alapadatok</legend>
-        <!-- ID -->
-        <div class="form-row form-group">
-          <div class="col">
-            <label for="id" class="text-center align-bottom">ID</label>
-          </div>
-          <div class="col">
-            # {{ user._id }}
-          </div>
-        </div>
         <!-- Utónév -->
         <div class="form-row form-group">
           <div class="col">
@@ -161,7 +152,7 @@
                   <option value="23">23:00</option>
                 </select>
               </div>
-              <span class="text-center">-</span>
+              <span id="hyphen" class="text-center">-</span>
               <!-- Ig -->
               <div class="col">
                 <select
@@ -204,7 +195,14 @@
       <fieldset class="mb-5">
         <legend class="w-auto text-center">Biztonság</legend>
         <!-- Jelszó -->
-        <div class="form-group pt-2"><label for="password">Jelszó</label><input
+        <div class="form-group pt-2"><label for="password">Jelszó</label>
+          <span id="password-info" class="font-italic">
+            <small>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+               Adatmódosításkor kötelező megadni!
+            </small>
+          </span>
+          <input
             type="password"
             [(ngModel)]="user.password"
             name="password"
