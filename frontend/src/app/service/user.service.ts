@@ -34,4 +34,10 @@ export class UserService {
     const url = `${this.config.apiUrl}${this.entity}/${user._id}`;
     return this.http.put<User>(url, user);
   }
+
+  remove(user: User): Observable<User> {
+    const url = `${this.config.apiUrl}${this.entity}/${user._id}`;
+    return this.http.delete<User>(url);
+  }
+
 }

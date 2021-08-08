@@ -11,6 +11,8 @@ import { User } from 'src/app/model/user';
 })
 export class UsersComponent implements OnInit {
 
+  user: User = null;
+  serverError = '';
   list$: Observable<User | User[]> = this.userService.get();
   cols: any[] = this.config.userColumns;
   phrase: string = '';
@@ -18,7 +20,7 @@ export class UsersComponent implements OnInit {
 
   constructor(
     private userService: UserService,
-    private config: ConfigService,
+    private config: ConfigService
   ) { }
 
   ngOnInit(): void {
@@ -29,6 +31,20 @@ export class UsersComponent implements OnInit {
       userResponse => console.log(userResponse),
       err => console.error(err)
     );
+  }
+
+  onDelete(user: User): void {
+    this.userService.remove(user)
+      .toPromise().then(
+        user => history.back(), // location.reload() kellene, de akkor újra be kellene jelentkezni...
+        err => {
+          this.serverError = err.error;
+          const to = setTimeout( () => {
+            clearTimeout(to);
+            this.serverError = '';
+          }, 3000);
+        }
+      )
   }
 
   onChangePhrase(event: Event): void {
