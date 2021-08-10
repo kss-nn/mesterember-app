@@ -1,0 +1,23 @@
+.cities {
+  background-color: whitesmoke;
+  width: max-content;
+  height: max-content;
+  border-radius: 15px;
+}
+
+img {
+  position: relative;
+  right: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+}
+
+.link-primary {
+  color: #0275d8;
+}

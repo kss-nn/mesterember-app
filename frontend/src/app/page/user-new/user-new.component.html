@@ -1,0 +1,297 @@
+<div class="row">
+  <div class="col-12 col-md-6 offset-md-3">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)" class="form pt-5">
+      <!-- ALAPADATOK -->
+      <fieldset class="mb-5">
+        <legend class="w-auto text-center pb-2">Alapadatok</legend>
+        <!-- Utónév -->
+        <div class="form-row form-group">
+          <div class="col">
+            <label for="first_name" class="text-center">Utónév</label>
+            <span class="star"> *</span>
+          </div>
+          <div class="col">
+            <input type="text"
+              [(ngModel)]="user.first_name"
+              #firstNameField="ngModel"
+              name="first_name" class="form-control"
+              required pattern="[A-ű].{1,}">
+          </div>
+        </div>
+        <p *ngIf="firstNameField.invalid && firstNameField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy valós nevet.</p>
+        <!-- Vezetéknév -->
+        <div class="form-row form-group">
+          <div class="col">
+            <label for="last_name" class="text-center">Vezetéknév</label>
+            <span class="star"> *</span>
+          </div>
+          <div class="col">
+            <input type="text"
+              [(ngModel)]="user.last_name"
+              #lastNameField="ngModel"
+              name="last_name"
+              class="form-control"
+              required pattern="[A-ű].{1,}">
+          </div>
+        </div>
+        <p *ngIf="lastNameField.invalid && lastNameField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy valós nevet.</p>
+        <!-- Szakterület -->
+        <div class="form-group pt-2">
+          <label for="skill">Szakterület</label>
+          <input
+          type="text"
+          [(ngModel)]="user.skill"
+          name="skill"
+          class="form-control"
+        ></div>
+        <!-- Felhasználó típusa -->
+        <div class="form-group pt-2">
+          <label for="user_type">Felhasználó típusa</label>
+          <span class="star"> *</span>
+          <select
+            type="text"
+            [(ngModel)]="user.user_type"
+            name="user_type"
+            class="form-control"
+            required
+          >
+            <option value="cég">cég</option>
+            <option value="egyéni vállalkozó">egyéni vállalkozó</option>
+            <option value="magánszemély">magánszemély</option>
+          </select>
+        </div>
+      </fieldset>
+      <!-- ELÉRHETŐSÉGI ADATOK -->
+      <fieldset class="mb-5">
+        <legend class="w-auto text-center">Elérhetőségi adatok</legend>
+        <!-- E-mail cím -->
+        <div class="form-group pt-2">
+          <label for="email">E-mail cím</label>
+          <span class="star"> *</span>
+          <input
+            type="email"
+            [(ngModel)]="user.email"
+            #emailField="ngModel"
+            name="email"
+            class="form-control"
+            email
+            required
+          >
+        </div>
+        <p *ngIf="emailField.invalid && emailField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy érvényes e-mail címet.</p>
+        <!-- Telefonszám -->
+        <div class="form-group pt-2"><label for="phone_number">Telefonszám</label><input
+            type="text"
+            [(ngModel)]="user.phone_number"
+            name="phone_number"
+            class="form-control"
+          ></div>
+        <!-- Megye -->
+        <div class="form-group pt-2">
+          <label for="counties">Megye</label>
+          <select
+            type="text"
+            [(ngModel)]="user.counties"
+            name="counties"
+            class="form-control"
+          >
+            <option value="Bács-Kiskun">Bács-Kiskun</option>
+            <option value="Baranya">Baranya</option>
+            <option value="Békés">Békés</option>
+            <option value="Borsod-Abaúj-Zemplén">Borsod-Abaúj-Zemplén</option>
+            <option value="Csongrád-Csanád">Csongrád-Csanád</option>
+            <option value="Fejér">Fejér</option>
+            <option value="Győr-Moson-Sopron">Győr-Moson-Sopron</option>
+            <option value="Hajdú-Bihar">Hajdú-Bihar</option>
+            <option value="Heves">Heves</option>
+            <option value="Jász-Nagykun-Szolnok">Jász-Nagykun-Szolnok</option>
+            <option value="Komárom-Esztergom">Komárom-Esztergom</option>
+            <option value="Nógrád">Nógrád</option>
+            <option value="Pest">Pest</option>
+            <option value="Somogy">Somogy</option>
+            <option value="Szabolcs-Szatmár-Bereg">Szabolcs-Szatmár-Bereg</option>
+            <option value="Tolna">Tolna</option>
+            <option value="Vas">Vas</option>
+            <option value="Veszprém">Veszprém</option>
+            <option value="Zala">Zala</option>
+          </select>
+        </div>
+        <!-- Település -->
+        <div class="form-group pt-2"><label for="cities">Település</label><input
+            type="text"
+            [(ngModel)]="user.cities"
+            #citiesField="ngModel"
+            name="cities"
+            class="form-control"
+            pattern="[A-ű].{1,}"
+          >
+        </div>
+        <p *ngIf="citiesField.invalid && citiesField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy valós települést.</p>
+        <!-- Munkanapok -->
+        <div class="form-group pt-2"><label for="form-check">Munkanapok</label><br>
+          <div name="form-check" class="form-check">
+            <input
+              name="monday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.monday"
+              [ngModelOptions]="{standalone: user.working_days.monday}">
+            <label class="form-check-label" for="monday">hétfő</label><br>
+            <input
+              name="tuesday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.tuesday"
+              [ngModelOptions]="{standalone: user.working_days.tuesday}">
+            <label class="form-check-label" for="tuesday">kedd</label><br>
+            <input
+              name="wednesday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.wednesday"
+              [ngModelOptions]="{standalone: user.working_days.wednesday}">
+            <label class="form-check-label" for="wednesday">szerda</label><br>
+            <input
+              name="thursday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.thursday"
+              [ngModelOptions]="{standalone: user.working_days.thursday}">
+            <label class="form-check-label" for="thursday">csütörtök</label><br>
+            <input
+              name="friday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.friday"
+              [ngModelOptions]="{standalone: user.working_days.friday}">
+            <label class="form-check-label" for="friday">péntek</label><br>
+            <input
+              name="saturday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.saturday"
+              [ngModelOptions]="{standalone: user.working_days.saturday}">
+            <label class="form-check-label" for="saturday">szombat</label><br>
+            <input
+              name="sunday" type="checkbox" class="form-check-input"
+              [(ngModel)]="user.working_days.sunday"
+              [ngModelOptions]="{standalone: user.working_days.sunday}">
+            <label class="form-check-label" for="sunday">vasárnap</label><br>
+          </div>
+        </div>
+        <!-- Munkaórák -->
+        <div class="form-group pt-2"><label for="working_hours">Munkaórák</label>
+          <div name="working_hours" class="form-row">
+              <!-- Tól -->
+              <div class="col">
+                <select
+                name="working_hours_start"
+                id="working_hours_start"
+                type="number"
+                [(ngModel)]="user.working_hours.start"
+                class="form-control"
+               >
+                  <option value="0">0:00</option>
+                  <option value="1">1:00</option>
+                  <option value="2">2:00</option>
+                  <option value="3">3:00</option>
+                  <option value="4">4:00</option>
+                  <option value="5">5:00</option>
+                  <option value="6">6:00</option>
+                  <option value="7">7:00</option>
+                  <option value="8">8:00</option>
+                  <option value="9">9:00</option>
+                  <option value="10">10:00</option>
+                  <option value="11">11:00</option>
+                  <option value="12">12:00</option>
+                  <option value="13">13:00</option>
+                  <option value="14">14:00</option>
+                  <option value="15">15:00</option>
+                  <option value="16">16:00</option>
+                  <option value="17">17:00</option>
+                  <option value="18">18:00</option>
+                  <option value="19">19:00</option>
+                  <option value="20">20:00</option>
+                  <option value="21">21:00</option>
+                  <option value="22">22:00</option>
+                  <option value="23">23:00</option>
+                </select>
+              </div>
+              <span id="hyphen" class="text-center">-</span>
+              <!-- Ig -->
+              <div class="col">
+                <select
+                name="working_hours_end"
+                id="working_hours_end"
+                type="number"
+                [(ngModel)]="user.working_hours.end"
+                class="form-control"
+               >
+                  <option value="0">0:00</option>
+                  <option value="1">1:00</option>
+                  <option value="2">2:00</option>
+                  <option value="3">3:00</option>
+                  <option value="4">4:00</option>
+                  <option value="5">5:00</option>
+                  <option value="6">6:00</option>
+                  <option value="7">7:00</option>
+                  <option value="8">8:00</option>
+                  <option value="9">9:00</option>
+                  <option value="10">10:00</option>
+                  <option value="11">11:00</option>
+                  <option value="12">12:00</option>
+                  <option value="13">13:00</option>
+                  <option value="14">14:00</option>
+                  <option value="15">15:00</option>
+                  <option value="16">16:00</option>
+                  <option value="17">17:00</option>
+                  <option value="18">18:00</option>
+                  <option value="19">19:00</option>
+                  <option value="20">20:00</option>
+                  <option value="21">21:00</option>
+                  <option value="22">22:00</option>
+                  <option value="23">23:00</option>
+                </select>
+              </div>
+          </div>
+        </div>
+      </fieldset>
+      <!-- BIZTONSÁG -->
+      <fieldset class="mb-5">
+        <legend class="w-auto text-center">Biztonság</legend>
+        <!-- Jelszó -->
+        <div class="form-group pt-2">
+          <label for="password">Jelszó</label>
+          <span class="star"> *</span>
+          <input
+            type="password"
+            [(ngModel)]="user.password"
+            #passwordField="ngModel"
+            name="password"
+            class="form-control"
+            required
+          >
+        </div>
+        <p *ngIf="passwordField.invalid && passwordField.touched"
+          class="error-message">
+          Kérjük, adjon meg egy jelszót.</p>
+        <!-- Jogosultsági szint -->
+        <div class="form-group pt-2 pb-3">
+          <label for="role">Jogosultsági szint</label>
+          <span class="star"> *</span>
+          <select
+            type="text"
+            [(ngModel)]="user.role"
+            name="role"
+            class="form-control"
+            required
+          >
+            <option value="1">1 - felhasználó</option>
+            <option value="2">2 - szerkesztő</option>
+            <option value="3">3 - admin</option>
+          </select>
+        </div>
+      </fieldset>
+      <!-- Mentés gomb -->
+      <button type="submit" class="btn btn-primary btn-block"
+        [disabled]="userForm.invalid">
+        Mentés
+      </button>
+    </form>
+  </div>

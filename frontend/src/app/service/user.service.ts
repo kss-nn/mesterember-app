@@ -16,6 +16,11 @@ export class UserService {
     private config: ConfigService,
   ) { }
 
+  query(queryString: string): Observable<User | User[]> {
+    const url = `${this.config.apiUrl}${this.entity}?${queryString}`;
+    return this.http.get<User[]>(url);
+  }
+
   get(id?: string | number): Observable<User | User[]> {
     let url = `${this.config.apiUrl}${this.entity}`;
     if (id) {
@@ -25,9 +30,9 @@ export class UserService {
     return this.http.get<User[]>(url);
   }
 
-  query(queryString: string): Observable<User | User[]> {
-    const url = `${this.config.apiUrl}${this.entity}?${queryString}`;
-    return this.http.get<User[]>(url);
+  create(user: User): Observable<User> {
+    const url = `${this.config.apiUrl}${this.entity}/${user._id}`;
+    return this.http.post<User>(url, user);
   }
 
   update(user: User): Observable<User> {

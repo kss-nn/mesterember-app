@@ -4,6 +4,7 @@ import { UserService } from 'src/app/service/user.service';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap, take } from 'rxjs/operators';
 import { NgForm } from '@angular/forms';
+import { County } from 'src/app/model/county';
 
 @Component({
   selector: 'app-user-edit',
@@ -13,6 +14,7 @@ import { NgForm } from '@angular/forms';
 export class UserEditComponent implements OnInit {
 
   user: User = null;
+  county: County = null;
   serverError = '';
 
   constructor(

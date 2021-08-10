@@ -13,6 +13,8 @@ import { ForbiddenComponent } from './page/forbidden/forbidden.component';
 import { JwtInterceptorService } from './service/jwt-interceptor.service';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { FilterPipe } from './pipes/filter.pipe';
+import { UserNewComponent } from './page/user-new/user-new.component';
+import { MapComponent } from './page/map/map.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FilterPipe } from './pipes/filter.pipe';
     UserEditComponent,
     ForbiddenComponent,
     DashboardComponent,
-    FilterPipe
+    FilterPipe,
+    UserNewComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "server": "json-server-auth ./server/users.json --id=_id --watch"
+    "server": "json-server-auth ./server/data.json --id=_id --watch"
   },
   "private": true,
   "dependencies": {
