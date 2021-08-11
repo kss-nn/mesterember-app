@@ -2697,5 +2697,371 @@
       "name": "Zala",
       "cities": ["Lenti", "Zalaszentgrót"]
     }
+  ],
+  "cities": [
+    {
+      "_id": "1",
+      "name": "Ajka",
+      "county": "Veszprém"
+    },
+    {
+      "_id": "2",
+      "name": "Balatonfüred",
+      "county": "Veszprém"
+    },
+    {
+      "_id": "3",
+      "name": "Bátonyterenye",
+      "county": "Nógrád"
+    },
+    {
+      "_id": "4",
+      "name": "Békés",
+      "county": "Békés"
+    },
+    {
+      "_id": "5",
+      "name": "Bicske",
+      "county": "Fejér"
+    },
+    {
+      "_id": "6",
+      "name": "Bonyhád",
+      "county": "Tolna"
+    },
+    {
+      "_id": "7",
+      "name": "Celldömölk",
+      "county": "Vas"
+    },
+    {
+      "_id": "8",
+      "name": "Csongrád",
+      "county": "Csongrád-Csanád"
+    },
+    {
+      "_id": "9",
+      "name": "Debrecen",
+      "county": "Hajdú-Bihar"
+    },
+    {
+      "_id": "10",
+      "name": "Dunaföldvár",
+      "county": "Tolna"
+    },
+    {
+      "_id": "11",
+      "name": "Eger",
+      "county": "Heves"
+    },
+    {
+      "_id": "12",
+      "name": "Esztergom",
+      "county": "Komárom-Esztergom"
+    },
+    {
+      "_id": "13",
+      "name": "Gárdony",
+      "county": "Fejér"
+    },
+    {
+      "_id": "14",
+      "name": "Gyál",
+      "county": "Pest"
+    },
+    {
+      "_id": "15",
+      "name": "Gyöngyös",
+      "county": "Heves"
+    },
+    {
+      "_id": "16",
+      "name": "Győr",
+      "county": "Győr-Moson_sopron"
+    },
+    {
+      "_id": "17",
+      "name": "Hatvan",
+      "county": "Heves"
+    },
+    {
+      "_id": "18",
+      "name": "Hajdúböszörmény",
+      "county": "Hajdú-Bihar"
+    },
+    {
+      "_id": "19",
+      "name": "Hajdúszoboszló",
+      "county": "Hajdú-Bihar"
+    },
+    {
+      "_id": "20",
+      "name": "Hódmezővásárhely",
+      "county": "Csongrád-Csanád"
+    },
+    {
+      "_id": "21",
+      "name": "Kalocsa",
+      "county": "Bács-Kiskun"
+    },
+    {
+      "_id": "22",
+      "name": "Kapuvár",
+      "county": "Győr-Moson-Sopron"
+    },
+    {
+      "_id": "23",
+      "name": "Karcag",
+      "county": "Jász-Nagykun-Szolnok"
+    },
+    {
+      "_id": "24",
+      "name": "Kecskemét",
+      "county": "Bács-Kiskun"
+    },
+    {
+      "_id": "25",
+      "name": "Kiskőrös",
+      "county": "Bács-Kiskun"
+    },
+    {
+      "_id": "26",
+      "name": "Komárom",
+      "county": "Komárom-Esztergom"
+    },
+    {
+      "_id": "27",
+      "name": "Lenti",
+      "county": "Zala"
+    },
+    {
+      "_id": "28",
+      "name": "Makó",
+      "county": "Csongrád-Csanád"
+    },
+    {
+      "_id": "29",
+      "name": "Marcali",
+      "county": "Somogy"
+    },
+    {
+      "_id": "30",
+      "name": "Martfű",
+      "county": "Jász-Nagykun-Szolnok"
+    },
+    {
+      "_id": "31",
+      "name": "Mezőkövesd",
+      "county": "Borsod-Abaúj-Zemplén"
+    },
+    {
+      "_id": "32",
+      "name": "Mezőtúr",
+      "county": "Jász-Nagykun-Szolnok"
+    },
+    {
+      "_id": "33",
+      "name": "Mór",
+      "county": "Fejér"
+    },
+    {
+      "_id": "34",
+      "name": "Mosonmagyaróvár",
+      "county": "Győr-Moson-Sopron"
+    },
+    {
+      "_id": "35",
+      "name": "Nagyatád",
+      "county": "Somogy"
+    },
+    {
+      "_id": "36",
+      "name": "Nyíregyháza",
+      "county": "Szabolcs-Szatmár-Bereg"
+    },
+    {
+      "_id": "37",
+      "name": "Oroszlány",
+      "county": "Komárom-Esztergom"
+    },
+    {
+      "_id": "38",
+      "name": "Pápa",
+      "county": "Veszprém"
+    },
+    {
+      "_id": "39",
+      "name": "Pécs",
+      "county": "Baranya"
+    },
+    {
+      "_id": "40",
+      "name": "Sajószentpéter",
+      "county": "Borsod-Abaúj-Zemplén"
+    },
+    {
+      "_id": "41",
+      "name": "Salgótarján",
+      "county": "Nógrád"
+    },
+    {
+      "_id": "42",
+      "name": "Sárospatak",
+      "county": "Borsod-Abaúj-Zemplén"
+    },
+    {
+      "_id": "43",
+      "name": "Sárvár",
+      "county": "Vas"
+    },
+    {
+      "_id": "44",
+      "name": "Sopron",
+      "county": "Győr-Moson-Sopron"
+    },
+    {
+      "_id": "45",
+      "name": "Szeged",
+      "county": "Csongrád-Csanád"
+    },
+    {
+      "_id": "46",
+      "name": "Szekszárd",
+      "county": "Tolna"
+    },
+    {
+      "_id": "47",
+      "name": "Szentendre",
+      "county": "Pest"
+    },
+    {
+      "_id": "48",
+      "name": "Szigetszentmiklós",
+      "county": "Pest"
+    },
+    {
+      "_id": "49",
+      "name": "Szombathely",
+      "county": "Vas"
+    },
+    {
+      "_id": "50",
+      "name": "Tapolca",
+      "county": "Veszprém"
+    },
+    {
+      "_id": "51",
+      "name": "Tata",
+      "county": "Komárom-Esztergom"
+    },
+    {
+      "_id": "52",
+      "name": "Tatabánya",
+      "county": "Komárom-Esztergom"
+    },
+    {
+      "_id": "53",
+      "name": "Tiszaföldvár",
+      "county": "Jász-Nagykun-Szolnok"
+    },
+    {
+      "_id": "54",
+      "name": "Tolna",
+      "county": "Tolna"
+    },
+    {
+      "_id": "55",
+      "name": "Törökszentmiklós",
+      "county": "Jász-Nagykun-Szolnok"
+    },
+    {
+      "_id": "56",
+      "name": "Várpalota",
+      "county": "Veszprém"
+    },
+    {
+      "_id": "57",
+      "name": "Veszprém",
+      "county": "Veszprém"
+    },
+    {
+      "_id": "58",
+      "name": "Zalaszentgrót",
+      "county": "Zala"
+    }
+  ],
+  "skills": [
+    {
+      "_id": "1",
+      "name": "Boilermaker"
+    },
+    {
+      "_id": "2",
+      "name": "Brickmason"
+    },
+    {
+      "_id": "3",
+      "name": "Carpenter"
+    },
+    {
+      "_id": "4",
+      "name": "Cement Mason"
+    },
+    {
+      "_id": "5",
+      "name": "Electrician"
+    },
+    {
+      "_id": "6",
+      "name": "Equipment Operator"
+    },
+    {
+      "_id": "7",
+      "name": "Glazier"
+    },
+    {
+      "_id": "8",
+      "name": "HVAC"
+    },
+    {
+      "_id": "9",
+      "name": "Laborer"
+    },
+    {
+      "_id": "10",
+      "name": "Landscaper"
+    },
+    {
+      "_id": "11",
+      "name": "Painter"
+    },
+    {
+      "_id": "12",
+      "name": "Pipelayer"
+    },
+    {
+      "_id": "13",
+      "name": "Plasterers"
+    },
+    {
+      "_id": "14",
+      "name": "Refridgeration"
+    },
+    {
+      "_id": "15",
+      "name": "Safety Officer"
+    },
+    {
+      "_id": "16",
+      "name": "Sheet Metal Worker"
+    },
+    {
+      "_id": "17",
+      "name": "Stucco Mason"
+    },
+    {
+      "_id": "18",
+      "name": "Terrazzo"
+    }
   ]
 }

@@ -1,3 +1,6 @@
+import { City } from "./city";
+import { County } from "./county";
+
 export class User {
   _id?: string | number = '';
   first_name?: string = '';
@@ -6,8 +9,8 @@ export class User {
   skill?: string = '';
   email?: string = '';
   phone_number?: string = '';
-  counties: string[] = [];
-  cities: string[] = [];
+  counties: County[] = [];
+  cities: City[] = [];
   working_days?: {
     "monday": boolean,
     "tuesday": boolean,

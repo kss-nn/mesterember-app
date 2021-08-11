@@ -1,5 +1,92 @@
 .row {
   background-color: whitesmoke;
-  width: max-content;
-  height: max-content;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Dashboard */
+
+.content {
+  padding: 10px 30px;
+  width: 100%;
+}
+
+.content > h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.main__cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__card {
+  margin: 10px;
+  color: rgb(236, 236, 236);
+  flex: 25%;
+}
+
+.main__card hr {
+  margin: 0;
+  border-style: solid;
+  border-width: 0.1px;
+  color: rgb(0, 0, 0);
+  opacity: 0.1;
+}
+
+.card__top {
+  border-radius: 0.25rem 0.25rem 0 0;
+  transition: background-color 0.3s;
+
+  padding: 20px 80px 20px 20px;
+  transition: color 0.3s;
+}
+
+.card__bottom {
+  border-radius: 0 0 0.25rem 0.25rem;
+  transition: background-color 0.3s;
+
+  padding: 10px 110px 10px 20px;
+  font-size: 0.7rem;
+  transition: color 0.3s;
+}
+
+.card__bottom:hover {
+  background-color: rgb(211,211,211);
+  color: rgb(105,105,105);
+  padding: 10px 110px 30px 20px;
+}
+
+.main__card--blue {
+  background-color: rgb(0, 123, 255);
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.main__card--yellow {
+  background-color: rgb(255, 193, 7);
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.main__card--green {
+  background-color: rgb(40, 167, 69);
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.main__card--red {
+  background-color: rgb(220, 53, 69);
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.card__bottom--arrow {
+  position: relative;
+  left: 90px;
+  font-weight: 900;
+}
+
+.link-white {
+  color: white;
 }

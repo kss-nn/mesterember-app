@@ -9,6 +9,7 @@ import { RoleGuardService } from './service/role-guard.service';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { UserNewComponent } from './page/user-new/user-new.component';
 import { MapComponent } from './page/map/map.component';
+import { WorkingHoursComponent } from './page/working-hours/working-hours.component';
 
 const routes: Routes = [
   {
@@ -52,6 +53,11 @@ const routes: Routes = [
   {
     path: 'map',
     component: MapComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'working-hours',
+    component: WorkingHoursComponent,
     canActivate: [AuthGuardService]
   },
   {

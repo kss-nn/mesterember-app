@@ -2,54 +2,46 @@
   <!-- Keresés -->
   <div class="col-12 col-md-6 d-flex mb-3">
     <input name="phrase" (keyup)="onChangePhrase($event)" class="form-control px-2" type="text"
-        placeholder="Keresés...">
+      placeholder="Keresés...">
     <select class="custom-select ml-2 px-2" (change)="onChangeKey($event)">
-        <option *ngFor="let col of cols"
-            [value]="col.key" [selected]="setDefault(col.key)">
-            {{ col.label }} alapján</option>
+      <option *ngFor="let col of cols" [value]="col.key" [selected]="setDefault(col.key)">
+        {{ col.label }} alapján</option>
     </select>
   </div>
-<!-- Új felhasználó létrehozása -->
-<div class="col-12 mb-3">
-  <div class="card my-0 px-3">
-    <button
-      routerLink="/user/new"
-      title="Új felhasználó létrehozása"
-      class="btn btn-primary my-3">
-      Új felhasználó létrehozása
-    </button>
+  <!-- Új felhasználó létrehozása -->
+  <div class="col-12 mb-3">
+    <div class="card my-0 px-3">
+      <button routerLink="/user/new" title="Új felhasználó létrehozása" class="btn btn-primary my-3">
+        Új felhasználó létrehozása
+      </button>
+    </div>
+    <!-- Táblázat -->
+    <table class="table table-striped table-responsive">
+      <thead>
+        <tr>
+          <th *ngFor="let col of cols">
+            {{ col.label }}
+          </th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of list$ | async | filter:phrase:filterKey">
+          <td *ngFor="let col of cols">
+            {{ user[col.key] }}
+          </td>
+          <td>
+            <div class="btn-group">
+              <a class="btn btn-info" routerLink="/user/edit/{{ user._id }}" title="Adatlap szerkesztése">
+                <i class="fa fa-pencil"></i>
+              </a>
+              <a class="btn btn-danger" (click)="onDelete(user)" title="Felhasználó törlése">
+                <i class="fa fa-trash"></i>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <!-- Táblázat -->
-  <table class="table table-striped table-responsive">
-    <thead>
-      <tr>
-        <th *ngFor="let col of cols">
-          {{ col.label }}
-        </th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let user of list$ | async | filter:phrase:filterKey">
-        <td *ngFor="let col of cols">
-          {{ user[col.key] }}
-        </td>
-        <td>
-          <div class="btn-group">
-            <a class="btn btn-info"
-              routerLink="/user/edit/{{ user._id }}"
-              title="Adatlap szerkesztése">
-              <i class="fa fa-pencil"></i>
-            </a>
-            <a class="btn btn-danger"
-              (click)="onDelete(user)"
-              title="Felhasználó törlése">
-              <i class="fa fa-trash"></i>
-            </a>
-          </div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 </div>

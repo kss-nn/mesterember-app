@@ -11,27 +11,27 @@
         <dd>
           <ul class="list-unstyled">
             <li>
-              <a class="link-primary" href="">{{ county.cities.slice(0, 1) }}</a>
+              <a class="link-primary" routerLink="/users">{{ county.cities.slice(0, 1) }}</a>
               ({{ county.cities.length }})
             </li>
             <li *ngIf="county.cities.length>1">
-              <a class="link-primary" href="#">{{ county.cities.slice(1, 2) }}</a>
+              <a class="link-primary" routerLink="/users">{{ county.cities.slice(1, 2) }}</a>
               ({{ county.cities.length - 1 }})
             </li>
             <li *ngIf="county.cities.length>2">
-              <a class="link-primary" href="#">{{ county.cities.slice(2, 3) }}</a>
+              <a class="link-primary" routerLink="/users">{{ county.cities.slice(2, 3) }}</a>
               ({{ county.cities.length }})
             </li>
             <li *ngIf="county.cities.length>3">
-              <a class="link-primary" href="#">{{ county.cities.slice(3, 4) }}</a>
+              <a class="link-primary" routerLink="/users">{{ county.cities.slice(3, 4) }}</a>
               ({{ county.cities.length }})
             </li>
             <li *ngIf="county.cities.length>4">
-              <a class="link-primary" href="#">{{ county.cities.slice(4, 5) }}</a>
+              <a class="link-primary" routerLink="/users">{{ county.cities.slice(4, 5) }}</a>
               ({{ county.cities.length -3 }})
             </li>
             <li *ngIf="county.cities.length>5">
-              <a class="link-primary" href="#">{{ county.cities.slice(5, 6) }}</a>
+              <a class="link-primary" routerLink="/users">{{ county.cities.slice(5, 6) }}</a>
               ({{ county.cities.length -2 }})
             </li>
           </ul>

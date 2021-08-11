@@ -15,6 +15,7 @@ import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { UserNewComponent } from './page/user-new/user-new.component';
 import { MapComponent } from './page/map/map.component';
+import { WorkingHoursComponent } from './page/working-hours/working-hours.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MapComponent } from './page/map/map.component';
     DashboardComponent,
     FilterPipe,
     UserNewComponent,
-    MapComponent
+    MapComponent,
+    WorkingHoursComponent
   ],
   imports: [
     BrowserModule,

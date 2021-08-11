@@ -1,5 +1,83 @@
 <div class="row">
   <div class="col-12">
-    Üdv az Irányítópulton!
+    <!-- Kártyák -->
+    <section class="content p-5">
+      <div class="main__cards">
+        <div class="main__card main__card--blue">
+          <div class="card__top">
+            {{ (userList$ | async)?.length }} mesterember
+          </div>
+          <hr>
+          <div class="card__bottom">
+            <span><a routerLink="/users" class="link-white">Részletek</a></span>
+            <i class="fa fa-angle-right card__bottom--arrow"></i>
+          </div>
+        </div>
+        <div class="main__card main__card--yellow">
+          <div class="card__top">
+            {{ (countyList$ | async)?.length }} megyéből
+          </div>
+          <hr>
+          <div class="card__bottom">
+            <span><a routerLink="/map" class="link-white">Részletek</a></span>
+            <span class="card__bottom--arrow">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </div>
+        </div>
+        <div class="main__card main__card--green">
+          <div class="card__top">
+            {{ (cityList$ | async)?.length }} településről
+          </div>
+          <hr>
+          <div class="card__bottom">
+            <span><a routerLink="/map" class="link-white">Részletek</a></span>
+            <span class="card__bottom--arrow">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </div>
+        </div>
+        <div class="main__card main__card--red">
+          <div class="card__top">
+            {{ (skillList$ | async)?.length }} szakterületről
+          </div>
+          <hr>
+          <div class="card__bottom">
+            <span><a routerLink="/users" class="link-white">Részletek</a></span>
+            <span class="card__bottom--arrow">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <!-- Keresés -->
+      <div class="col-12 col-md-6 d-flex mb-3">
+        <input name="phrase" (keyup)="onChangePhrase($event)" class="form-control px-2" type="text"
+          placeholder="Keresés...">
+        <select class="custom-select ml-2 px-2" (change)="onChangeKey($event)">
+          <option *ngFor="let col of cols" [value]="col.key" [selected]="setDefault(col.key)">
+            {{ col.label }} alapján</option>
+        </select>
+      </div>
+      <!-- Táblázat -->
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th *ngFor="let col of cols">
+              {{ col.label }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of userList$ | async | filter:phrase:filterKey">
+            <td *ngFor="let col of cols">
+              {{ user[col.key] }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
