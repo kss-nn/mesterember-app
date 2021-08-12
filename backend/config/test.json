@@ -1,0 +1,7 @@
+{
+    "database": {
+        "username": "admin",
+        "password": "admin",
+        "host": "cluster0.halug.mongodb.net/JestDB?retryWrites=true&w=majority"
+    }
+}

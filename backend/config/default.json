@@ -1,0 +1,7 @@
+{
+    "database": {
+        "username": "admin",
+        "password": "admin",
+        "host": "mongo:27017/MesteremberAppDatabase?retryWrites=true&w=majority"
+    }
+}

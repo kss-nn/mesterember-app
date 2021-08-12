@@ -1,0 +1,2502 @@
+[
+  {
+    "first_name": "Charlie",
+    "last_name": "Firpo",
+    "skill": "Boilermaker",
+    "user_type": "magánszemély",
+    "email": "seyden0@merriam-webster.com",
+    "phone_number": "+63 (834) 409-6463",
+    "counties": ["Jász-Nagykun-Szolnok"],
+    "cities": ["Törökszentmiklós"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": false,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$qCcDsV1BLCHBKVhaJLOLSuwZB8Q4fGxBc52IlwLSCUawomdZ4JGvq",
+    "role": "3"
+  },
+  {
+    "first_name": "Finn",
+    "last_name": "Upjohn",
+    "skill": "Terrazzo",
+    "user_type": "egyéni vállalkozó",
+    "email": "fupjohn1@paypal.com",
+    "phone_number": "+86 (673) 706-6926",
+    "counties": ["Tolna"],
+    "cities": ["Tolna"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$xW1vJhe3xczrnTQOZYlaY.DV/UbYal1.lc2d9ip6tw3.6cWv8XoQ.",
+    "role": "1"
+  },
+  {
+    "first_name": "Nickey",
+    "last_name": "Tyt",
+    "skill": "Sheet Metal Worker",
+    "user_type": "magánszemély",
+    "email": "ntyt2@psu.edu",
+    "phone_number": "+351 (925) 846-8147",
+    "counties": ["Pest"],
+    "cities": ["Szigetszentmiklós"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 7,
+      "end": 11
+    },
+    "password": "$2a$10$eZMp/S6cJtgOTy94BKQaAun/m.f3eIu8smIpIi2tvQUgGAiwxfDsy",
+    "role": 3
+  },
+  {
+    "first_name": "Goldia",
+    "last_name": "Bloodworthe",
+    "skill": "Plasterers",
+    "user_type": "cég",
+    "email": "gbloodworthe3@mail.ru",
+    "phone_number": "+53 (182) 253-2843",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Csongrád"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$XCaD5qH6cy8b2Zs6.X21dON.WZXC.4uYI6UuGhyqSWzMSyGJ9fQQ6",
+    "role": 1
+  },
+  {
+    "first_name": "Berti",
+    "last_name": "Farthing",
+    "skill": "Ironworker",
+    "user_type": "cég",
+    "email": "bfarthing4@nymag.com",
+    "phone_number": "+420 (322) 830-5985",
+    "counties": ["Zala"],
+    "cities": ["Zalaszentgrót"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 13
+    },
+    "password": "$2a$10$zl6J2sTRSOemUNRZ7Iq3DuxNZwCyi4AAOp6jB2V/U7bEM7OlJVqF2",
+    "role": 3
+  },
+  {
+    "first_name": "Elihu",
+    "last_name": "Lammie",
+    "skill": "Ironworker",
+    "user_type": "egyéni vállalkozó",
+    "email": "elammie5@google.co.uk",
+    "phone_number": "+380 (371) 841-7032",
+    "counties": ["Győr-Moson-Sopron"],
+    "cities": ["Sopron"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 16,
+      "end": 20
+    },
+    "password": "$2a$10$Yik3e5FNRzoeSkmaHXsOwu/OY34LzVLK.qikjnwuSELthvRYY2PIK",
+    "role": 1
+  },
+  {
+    "first_name": "Misty",
+    "last_name": "Comfort",
+    "skill": "Pipefitter",
+    "user_type": "magánszemély",
+    "email": "mcomfort6@github.io",
+    "phone_number": "+1 (313) 299-6994",
+    "counties": ["Bács-Kiskun"],
+    "cities": ["Kiskőrös"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 20
+    },
+    "password": "$2a$10$ZrOZ40dYWInLc0zpQZ6Cg.CBqjuTRynd6ZaD8bJiEAYoeAnilCI6W",
+    "role": 2
+  },
+  {
+    "first_name": "Shana",
+    "last_name": "Swyne",
+    "skill": "Painter",
+    "user_type": "magánszemély",
+    "email": "sswyne7@latimes.com",
+    "phone_number": "+33 (868) 929-7136",
+    "counties": ["Bács-Kiskun"],
+    "cities": ["Kalocsa"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": false,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 22
+    },
+    "password": "$2a$10$gNlsQbADZkQWP4KdP4Y8dOUPnLApUf81vyQe6Cw8rIxPgJmrsODtq",
+    "role": 1
+  },
+  {
+    "first_name": "Wake",
+    "last_name": "Pickworth",
+    "skill": "Welder",
+    "user_type": "magánszemély",
+    "email": "wpickworth8@about.com",
+    "phone_number": "+62 (327) 625-8337",
+    "counties": ["Fejér"],
+    "cities": ["Gárdony"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 20
+    },
+    "password": "$2a$10$33qbZfZnTvwP4lK3gHwOWOJmQyVFyBBkcXvRa75L.GffaQzpbiM0u",
+    "role": 2
+  },
+  {
+    "first_name": "Marcellus",
+    "last_name": "Melchior",
+    "skill": "Boilermaker",
+    "user_type": "magánszemély",
+    "email": "mmelchior9@weibo.com",
+    "phone_number": "+62 (879) 868-5355",
+    "counties": ["Veszprém"],
+    "cities": ["Veszprém"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": true
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$ChNaXJ53hTt09Fgiu83U7.1jxyLUkhLi1PceeCr3RgRq8auXBdWOy",
+    "role": 2
+  },
+  {
+    "first_name": "Jorgan",
+    "last_name": "Perrycost",
+    "skill": "Equipment Operator",
+    "user_type": "cég",
+    "email": "jperrycosta@whitehouse.gov",
+    "phone_number": "+86 (974) 230-7939",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Oroszlány"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 12,
+      "end": 16
+    },
+    "password": "$2a$10$qKO3YDLLxTTJ2C3/y7RCUev/6k3nfcnVrtds5R7VCeH2srRL5WbYG",
+    "role": 3
+  },
+  {
+    "first_name": "Rossy",
+    "last_name": "Ellicott",
+    "user_type": "magánszemély",
+    "skill": "Ironworker",
+    "email": "rellicottb@tinyurl.com",
+    "phone_number": "+269 (667) 599-6418",
+    "counties": ["Békés"],
+    "cities": ["Békés"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 18
+    },
+    "password": "$2a$10$krfOmXKtbKhEqvZ7iTHR9uHyjWOKdo5QbRCGve3ueTyd1lgahcweS",
+    "role": 3
+  },
+  {
+    "first_name": "Simonne",
+    "last_name": "Hourston",
+    "skill": "Carpenter",
+    "user_type": "cég",
+    "email": "shourstonc@constantcontact.com",
+    "phone_number": "+218 (593) 840-7176",
+    "counties": ["Somogy"],
+    "cities": ["Nagyatád"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": false,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$PcRbxUXOOzFlLNFS3BK8p.Uq6/LomtuZxO8oxEn2xRxbGlWxLTcTG",
+    "role": 3
+  },
+  {
+    "first_name": "Darcy",
+    "last_name": "Everett",
+    "skill": "Electrician",
+    "user_type": "egyéni vállalkozó",
+    "email": "deverettd@delicious.com",
+    "phone_number": "+86 (225) 453-9947",
+    "counties": ["Győr-Moson-Sopron"],
+    "cities": ["Kapuvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 3,
+      "end": 12
+    },
+    "password": "$2a$10$zQOYdjtr0pOVudqMnu.G.uEK3IdQ4SGHVkFUrsiplwuKiFWIJe18O",
+    "role": 1
+  },
+  {
+    "first_name": "Tuck",
+    "last_name": "Wallas",
+    "skill": "Terrazzo",
+    "user_type": "magánszemély",
+    "email": "twallase@odnoklassniki.ru",
+    "phone_number": "+380 (964) 215-7685",
+    "counties": ["Hajdú-Bihar"],
+    "cities": ["Hajdúszoboszló"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 0,
+      "end": 23
+    },
+    "password": "$2a$10$hYfGi77WgLdUd4aoo9WwjeVzTFxf9sfoA8adgtzoDdTcF4oWNDJR2",
+    "role": 3
+  },
+  {
+    "first_name": "Piggy",
+    "last_name": "Jefferies",
+    "skill": "HVAC",
+    "user_type": "cég",
+    "email": "pjefferiesf@constantcontact.com",
+    "phone_number": "+86 (665) 358-0030",
+    "counties": ["Hajdú-Bihar"],
+    "cities": ["Hajdúszoboszló"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 12
+    },
+    "password": "$2a$10$IDE0nVFotJlYtFB9tV6nJu/nxMhthQqawZgeSFDbQxOc4zW9rhEO.",
+    "role": 1
+  },
+  {
+    "first_name": "Bob",
+    "last_name": "Mowat",
+    "skill": "Electrician",
+    "user_type": "cég",
+    "email": "dmowatg@cisco.com",
+    "phone_number": "+7 (381) 426-9228",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Tata"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 11,
+      "end": 19
+    },
+    "password": "$2a$10$YCkHdz8M86Ts26FDIVJM7.wmADU3Zwb5AF3ooulapRwcfFTukMgqu",
+    "role": "1"
+  },
+  {
+    "first_name": "Colin",
+    "last_name": "Nolin",
+    "skill": "Ironworker",
+    "user_type": "egyéni vállalkozó",
+    "email": "cnolinh@businessweek.com",
+    "phone_number": "+63 (186) 825-5288",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Hódmezővásárhely"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 14,
+      "end": 19
+    },
+    "password": "$2a$10$B5Yd7KqVrq2bHD25Wqk0M.t64hmIXyQWysxIvm7JK7xZRd1w9VXAC",
+    "role": 1
+  },
+  {
+    "first_name": "Anallese",
+    "last_name": "Nobles",
+    "skill": "Terrazzo",
+    "user_type": "magánszemély",
+    "email": "anoblesi@jimdo.com",
+    "phone_number": "+7 (702) 802-2655",
+    "counties": ["Borsod-Abaúj-Zemplén"],
+    "cities": ["Mezőkövesd"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 4,
+      "end": 12
+    },
+    "password": "$2a$10$F69RWlaK2gqCKWlS4ya4bey7fA/nwXxoCvkBMymn4yRIquElfaOQ.",
+    "role": 3
+  },
+  {
+    "first_name": "Wendell",
+    "last_name": "Knok",
+    "skill": "Terrazzo",
+    "user_type": "cég",
+    "email": "wknokj@blinklist.com",
+    "phone_number": "+81 (768) 235-2977",
+    "counties": ["Fejér"],
+    "cities": ["Mór"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$EFOsSYZJzOYk1GZkYaKu2uQ8aOSZ5O60LnsA.3Pr/m0L5pOnTuEhG",
+    "role": 1
+  },
+  {
+    "first_name": "Beckie",
+    "last_name": "Emmert",
+    "skill": "Refridgeration",
+    "user_type": "egyéni vállalkozó",
+    "email": "bemmertk@yandex.ru",
+    "phone_number": "+34 (426) 264-3185",
+    "counties": ["Győr-Moson-Sopron"],
+    "cities": ["Győr"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$bn1PObyAefhkkrtirJZuzeGbqeZOfvjbJw.ijjM4fauoAi7JZpYMS",
+    "role": 2
+  },
+  {
+    "first_name": "Basile",
+    "last_name": "Daines",
+    "skill": "Plasterers",
+    "user_type": "magánszemély",
+    "email": "bdainesl@google.cn",
+    "phone_number": "+86 (341) 698-9091",
+    "counties": ["Heves"],
+    "cities": ["Eger"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$ctoztby6fPhpVOirXV6w3uyX/P/KVMsUks1l8c5qHGF6aShv5XEG2",
+    "role": 2
+  },
+  {
+    "first_name": "Lee",
+    "last_name": "Gorden",
+    "skill": "Boilermaker",
+    "user_type": "magánszemély",
+    "email": "lgordenm@unc.edu",
+    "phone_number": "+7 (981) 677-8599",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Szeged"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 6,
+      "end": 14
+    },
+    "password": "$2a$10$vHKA9CvDE8cwAuzW6qlc6eY3uaCjkpIBEukhK9xXqPDpSu0qhsfhC",
+    "role": 2
+  },
+  {
+    "first_name": "Berry",
+    "last_name": "Sargerson",
+    "skill": "HVAC",
+    "user_type": "egyéni vállalkozó",
+    "email": "bsargersonn@arizona.edu",
+    "phone_number": "+62 (429) 213-2449",
+    "counties": ["Tolna"],
+    "cities": ["Dunaföldvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": false,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 14,
+      "end": 22
+    },
+    "password": "$2a$10$y/iEi/iSzwNwCTeCpMJKRe9yGIsMRZdlfHwNJrBOzFU9KED.wMeaq",
+    "role": 3
+  },
+  {
+    "first_name": "Simonette",
+    "last_name": "Scamerden",
+    "skill": "Laborer",
+    "user_type": "magánszemély",
+    "email": "sscamerdeno@gnu.org",
+    "phone_number": "+7 (267) 717-9525",
+    "counties": ["Nógrád"],
+    "cities": ["Salgótarján"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$v1Tab2eIpujIS8TtIWT6nO3/Yit3oOmjeLUppOsXlZk18evsmGDmS",
+    "role": 2
+  },
+  {
+    "first_name": "Ilse",
+    "last_name": "Amorine",
+    "skill": "Boilermaker",
+    "user_type": "magánszemély",
+    "email": "iamorinep@instagram.com",
+    "phone_number": "+98 (204) 783-8204",
+    "counties": ["Heves"],
+    "cities": ["Eger"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$SOKvA4USIWlk/oAJLh1UlOY3ybkH8Uol03z1P347OI/NRSctaRa/K",
+    "role": 2
+  },
+  {
+    "first_name": "Janeen",
+    "last_name": "Greenroa",
+    "skill": "HVAC",
+    "user_type": "magánszemély",
+    "email": "jgreenroaq@paypal.com",
+    "phone_number": "+86 (874) 566-1625",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Makó"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": true
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$63HNKMKhowFGZcsnHEuEf.k.uN8XAroVOHn7xjMTTAOCWn2ki/FAy",
+    "role": 3
+  },
+  {
+    "first_name": "Dev",
+    "last_name": "Hardcastle",
+    "skill": "Tile Setter",
+    "user_type": "cég",
+    "email": "dhardcastler@163.com",
+    "phone_number": "+1 (471) 839-8089",
+    "counties": ["Heves"],
+    "cities": ["Gyöngyös"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 22,
+      "end": 6
+    },
+    "password": "$2a$10$RO9c8L3HGYouS3lmpfT5huK7nDrt2tds2k0b.tsnWPjaRILK3XLhW",
+    "role": 3
+  },
+  {
+    "first_name": "Baird",
+    "last_name": "Laffoley-Lane",
+    "skill": "Electrician",
+    "user_type": "cég",
+    "email": "blaffoleylanes@google.co.uk",
+    "phone_number": "+34 (810) 427-1103",
+    "counties": ["Zala"],
+    "cities": ["Lenti"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 15
+    },
+    "password": "$2a$10$HK21k29hipkQMgPqwjy2IOFHMAsmw4oG6nBJfuQTv.TjXj2FKZHMG",
+    "role": 1
+  },
+  {
+    "first_name": "Charlotte",
+    "last_name": "Tomaszynski",
+    "skill": "Carpenter",
+    "user_type": "magánszemély",
+    "email": "ctomaszynskit@webeden.co.uk",
+    "phone_number": "+81 (913) 626-9107",
+    "counties": ["Békés"],
+    "cities": ["Békés"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 11,
+      "end": 16
+    },
+    "password": "$2a$10$DdXtDFsrIXvq9NI0Brrji.VwvB/0fzAMZDwlO5ANCbyobGgCdGI2K",
+    "role": 2
+  },
+  {
+    "first_name": "Benetta",
+    "last_name": "Stoakes",
+    "skill": "Boilermaker",
+    "user_type": "egyéni vállalkozó",
+    "email": "bstoakesu@cocolog-nifty.com",
+    "phone_number": "+51 (982) 189-4031",
+    "counties": ["Vas"],
+    "cities": ["Szombathely"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$9NStEfNX8.TKNr/Uhj/2f.ZULb75q9bqvHiqdP0h7XjbBP2wBQiuS",
+    "role": 2
+  },
+  {
+    "first_name": "Loutitia",
+    "last_name": "Leah",
+    "skill": "Tile Setter",
+    "user_type": "magánszemély",
+    "email": "lleahv@tamu.edu",
+    "phone_number": "+351 (586) 790-2265",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Csongrád"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 16
+    },
+    "password": "$2a$10$Fwb8a7KQFn2AQkBjaEs9q.oDm8pIxw8feg3zPsMghZGnFjdAF3D3C",
+    "role": 3
+  },
+  {
+    "first_name": "Sergeant",
+    "last_name": "Goodhall",
+    "skill": "Pipelayer",
+    "user_type": "magánszemély",
+    "email": "sgoodhallw@spotify.com",
+    "phone_number": "+351 (239) 466-3959",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Tata"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 16
+    },
+    "password": "$2a$10$.gduja7d.ocA3EJhaNf09OmVIimh027e0C.0EWIVjryUkjB42mWaa",
+    "role": 1
+  },
+  {
+    "first_name": "Mord",
+    "last_name": "Minelli",
+    "skill": "Sheet Metal Worker",
+    "user_type": "cég",
+    "email": "mminellix@oracle.com",
+    "phone_number": "+86 (790) 234-8789",
+    "counties": ["Borsod-Abaúj-Zemplén"],
+    "cities": ["Sárospatak"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": false,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 15,
+      "end": 17
+    },
+    "password": "$2a$10$3jhoAmmvqdY4YWB1kPOxXeoNhPzXV6RJPQSNZtEdx.PBhyRZ.nUQ2",
+    "role": 2
+  },
+  {
+    "first_name": "Chancey",
+    "last_name": "Redhouse",
+    "skill": "Linemen",
+    "user_type": "magánszemély",
+    "email": "credhousey@1und1.de",
+    "phone_number": "+51 (576) 683-8249",
+    "counties": ["Vas"],
+    "cities": ["Sárvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$IAEkHe52rQMQD8vhkza/LegAvrM3z/TLtcuq2VdgDkrKmmUZdX5r6",
+    "role": 3
+  },
+  {
+    "first_name": "Vail",
+    "last_name": "Lodin",
+    "skill": "Refridgeration",
+    "user_type": "egyéni vállalkozó",
+    "email": "vlodinz@miibeian.gov.cn",
+    "phone_number": "+7 (451) 373-7733",
+    "counties": ["Jász-Nagykun-Szolnok"],
+    "cities": ["Martfű"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 19
+    },
+    "password": "$2a$10$pY9UUzHQSkOU.3YU.vYcxuv91ZmFWNXhtHMiP9edmCLqYc4lv0jh6",
+    "role": 3
+  },
+  {
+    "first_name": "Alice",
+    "last_name": "Massard",
+    "skill": "Painter",
+    "user_type": "magánszemély",
+    "email": "amassard10@ocn.ne.jp",
+    "phone_number": "+63 (686) 966-5452",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Tatabánya"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$EWpTIWDEowmhDYCwKhN86urIuqUgfkJ0/CgoIDRwQF/FL4afodFIS",
+    "role": 3
+  },
+  {
+    "first_name": "Timmy",
+    "last_name": "Pessler",
+    "skill": "Safety Officer",
+    "user_type": "cég",
+    "email": "tpessler11@apache.org",
+    "phone_number": "+420 (176) 308-9978",
+    "counties": ["Tolna"],
+    "cities": ["Dunaföldvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$qiH7/qzuvTxB4viTziMS0euc9ZPwBiSK3yiSXkY3Q28.4XYWojgwa",
+    "role": 1
+  },
+  {
+    "first_name": "Nanon",
+    "last_name": "MacGiffin",
+    "skill": "Pipelayer",
+    "user_type": "egyéni vállalkozó",
+    "email": "nmacgiffin12@liveinternet.ru",
+    "phone_number": "+81 (322) 355-1767",
+    "counties": ["Fejér"],
+    "cities": ["Bicske"],
+    "working_days": {
+      "monday": true,
+      "tuesday": false,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$drHGKm.X.24yuErYTtn7BuEDtaXyNB52fFqVE.MkMaq7AL5Yt9c/e",
+    "role": 2
+  },
+  {
+    "first_name": "Katheryn",
+    "last_name": "Gumley",
+    "skill": "Terrazzo",
+    "user_type": "cég",
+    "email": "kgumley13@typepad.com",
+    "phone_number": "+86 (683) 691-4013",
+    "counties": ["Fejér"],
+    "cities": ["Gárdony"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$Y8ARPxbCATUw.8ul/nkOTuZpI83PVqH8kzJaDMKw9WhgZTOr07B1G",
+    "role": 2
+  },
+  {
+    "first_name": "Fabe",
+    "last_name": "Extill",
+    "skill": "HVAC",
+    "user_type": "cég",
+    "email": "fextill14@skyrock.com",
+    "phone_number": "+967 (939) 466-7643",
+    "counties": ["Tolna"],
+    "cities": ["Tolna"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$UifTLVNwo3BuXdnLzLTn9urwMZAuk52cloOZZ4RlAF7AjwLErQ23e",
+    "role": 3
+  },
+  {
+    "first_name": "Aeriel",
+    "last_name": "Bowers",
+    "skill": "Refridgeration",
+    "user_type": "egyéni vállalkozó",
+    "email": "abowers15@paypal.com",
+    "phone_number": "+66 (376) 846-7586",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Makó"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 12,
+      "end": 13
+    },
+    "password": "$2a$10$0e/o5rGF9yvxG4li7haeeu23qcstqENOE783w/q5VzHy/odJBT02S",
+    "role": 2
+  },
+  {
+    "first_name": "Melania",
+    "last_name": "Carnihan",
+    "skill": "Laborer",
+    "user_type": "cég",
+    "email": "mcarnihan16@cocolog-nifty.com",
+    "phone_number": "+1 (532) 939-7955",
+    "counties": ["Győr-Moson-Sopron"],
+    "cities": ["Mosonmagyaróvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 7,
+      "end": 15
+    },
+    "password": "$2a$10$Fubr/RKUnCQ02Lziobego./7F4mxtOZoaAobj.YolkMc.VtdTyiSm",
+    "role": 3
+  },
+  {
+    "first_name": "Serge",
+    "last_name": "Newlove",
+    "skill": "HVAC",
+    "user_type": "egyéni vállalkozó",
+    "email": "snewlove17@independent.co.uk",
+    "phone_number": "+63 (876) 776-9061",
+    "counties": ["Borsod-Abaúj-Zemplén"],
+    "cities": ["Sajószentpéter"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": true
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$dBl.3j8SIJ3jLV7x1ZxDAeAYwFFOBmEZZvaeWTEosQHE4u8gaFw4C",
+    "role": 3
+  },
+  {
+    "first_name": "Victoria",
+    "last_name": "Wardel",
+    "skill": "Linemen",
+    "user_type": "egyéni vállalkozó",
+    "email": "vwardel18@soup.io",
+    "phone_number": "+86 (319) 953-1362",
+    "counties": ["Fejér"],
+    "cities": ["Gárdony"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 20,
+      "end": 23
+    },
+    "password": "$2a$10$i4KBLzv.ZByFWbjLUH2gFeyqsWiFwUWLQRb7/pcnWPx8y6eobiaxK",
+    "role": 2
+  },
+  {
+    "first_name": "Shannon",
+    "last_name": "Skuce",
+    "skill": "Plumber",
+    "user_type": "magánszemély",
+    "email": "sskuce19@github.com",
+    "phone_number": "+52 (992) 124-8534",
+    "counties": ["Nógrád"],
+    "cities": ["Bátonyterenye"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$eqBq0gO2MPIUhoUFQTykH.iFKx6yNg.kD8nbDb9WoGkPBVlbZZUZC",
+    "role": 3
+  },
+  {
+    "first_name": "Pollyanna",
+    "last_name": "Grint",
+    "skill": "Sheet Metal Worker",
+    "user_type": "cég",
+    "email": "pgrint1a@godaddy.com",
+    "phone_number": "+506 (268) 284-3649",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Makó"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$QLm6pXdlf.iqfqPr04/p.eRJc3rpZ3R0tGihoAEuN17psPwVXnc6K",
+    "role": 2
+  },
+  {
+    "first_name": "Phyllys",
+    "last_name": "Cuxson",
+    "skill": "Concrete Finisher",
+    "user_type": "magánszemély",
+    "email": "pcuxson1b@sina.com.cn",
+    "phone_number": "+992 (111) 231-9830",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Esztergom"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 22,
+      "end": 0
+    },
+    "password": "$2a$10$hF/2lBv7PtCiGksn.FrUe.rQaobj9bLSr5D2Qv0nXENPwFuIS/.5K",
+    "role": 3
+  },
+  {
+    "first_name": "Matty",
+    "last_name": "Grieves",
+    "skill": "HVAC",
+    "user_type": "cég",
+    "email": "mgrieves1c@tamu.edu",
+    "phone_number": "+381 (888) 796-4091",
+    "counties": ["Borsod-Abaúj-Zemplén"],
+    "cities": ["Sárospatak"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$X1tukXlpS0jssq1aQyxUkuvq9OJVP26xCFFwqz9Xwh5asvl7YtAE6",
+    "role": 3
+  },
+  {
+    "first_name": "Seamus",
+    "last_name": "Abrahamsohn",
+    "skill": "Linemen",
+    "user_type": "magánszemély",
+    "email": "sabrahamsohn1d@msu.edu",
+    "phone_number": "+62 (669) 695-3628",
+    "counties": ["Szabolcs-Szatmár-Bereg"],
+    "cities": ["Nyíregyháza"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$nlJh.TfNuACsaSn0NJ3yh.zlaDlfX5MRoBDA2yhwfEK.eKAhzzDWC",
+    "role": 1
+  },
+  {
+    "first_name": "Flore",
+    "last_name": "Degoix",
+    "skill": "Electrician",
+    "user_type": "egyéni vállalkozó",
+    "email": "fdegoix1e@time.com",
+    "phone_number": "+55 (682) 844-6860",
+    "counties": ["Hajdú-Bihar"],
+    "cities": ["Debrecen"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": false,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$EsNDBG6pzlxvyQ6Y4yQoIuEtemTzYNaP56FLAvwc7w4ZL2HnJUc7.",
+    "role": 1
+  },
+  {
+    "first_name": "Hilton",
+    "last_name": "Carletto",
+    "skill": "Plumber",
+    "user_type": "cég",
+    "email": "hcarletto1f@engadget.com",
+    "phone_number": "+420 (466) 814-7623",
+    "counties": ["Baranya"],
+    "cities": ["Pécs"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$TzUrnfVClvePAaeif.RXaeg8zTaug9MAHbTRjRg.xFjokNIy.x3HW",
+    "role": 2
+  },
+  {
+    "first_name": "Ewart",
+    "last_name": "Attride",
+    "skill": "Brickmason",
+    "user_type": "cég",
+    "email": "eattride1g@smh.com.au",
+    "phone_number": "+62 (432) 167-7906",
+    "counties": ["Győr-Moson-Sopron"],
+    "cities": ["Mosonmagyaróvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$al2XYAvMt51hSADkR/1FoOdND1fxrMPLY2umdvN6fo.s5q8VZdx02",
+    "role": 3
+  },
+  {
+    "first_name": "Elle",
+    "last_name": "Marchelli",
+    "skill": "Plumber",
+    "user_type": "egyéni vállalkozó",
+    "email": "emarchelli1h@livejournal.com",
+    "phone_number": "+63 (557) 590-2253",
+    "counties": ["Somogy"],
+    "cities": ["Marcali"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 15
+    },
+    "password": "$2a$10$cZmPT9RMXI8tLn0N/a2dIuz8DT0wzGZ9aUCzaUqBLauEUack27TgC",
+    "role": 2
+  },
+  {
+    "first_name": "Jeffry",
+    "last_name": "Tatchell",
+    "skill": "Laborer",
+    "user_type": "magánszemély",
+    "email": "jtatchell1i@hugedomains.com",
+    "phone_number": "+7 (778) 767-1801",
+    "counties": ["Heves"],
+    "cities": ["Eger"],
+    "working_days": {
+      "monday": true,
+      "tuesday": false,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$pycw.9d2gEdYJkd1uZBusuxwpIXXoGuT3W8S7aA3j5q.Nl5J0riQS",
+    "role": 1
+  },
+  {
+    "first_name": "Joby",
+    "last_name": "Chadburn",
+    "skill": "Sheet Metal Worker",
+    "user_type": "egyéni vállalkozó",
+    "email": "jchadburn1j@washingtonpost.com",
+    "phone_number": "+48 (863) 268-7946",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Oroszlány"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": true
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$RRiOhA1wTlWOARSQx6dDk.qEld12Z2I0NAdYgyDuL5HNdJeNM6Dua",
+    "role": 1
+  },
+  {
+    "first_name": "Brigg",
+    "last_name": "Shortall",
+    "skill": "Safety Officer",
+    "user_type": "cég",
+    "email": "bshortall1k@usa.gov",
+    "phone_number": "+48 (555) 548-3561",
+    "counties": ["Veszprém"],
+    "cities": ["Pápa"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 18,
+      "end": 22
+    },
+    "password": "$2a$10$LF/Airb0qAuMNT70qhxLUuh5SQVZnDljAsrlEv9l.ZxNK58UJV.A.",
+    "role": 1
+  },
+  {
+    "first_name": "Kurtis",
+    "last_name": "Bretland",
+    "skill": "Cement Mason",
+    "user_type": "egyéni vállalkozó",
+    "email": "kbretland1l@mit.edu",
+    "phone_number": "+965 (903) 416-4242",
+    "counties": ["Nógrád"],
+    "cities": ["Bátonyterenye"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 15,
+      "end": 19
+    },
+    "password": "$2a$10$Af6aFR9DcBycJN0EcW4v2urQA0aDlv1R00.KmghP3OGi/n0xASHQ.",
+    "role": 3
+  },
+  {
+    "first_name": "Alleen",
+    "last_name": "Pedro",
+    "skill": "Tile Setter",
+    "user_type": "cég",
+    "email": "apedro1m@purevolume.com",
+    "phone_number": "+86 (338) 621-5555",
+    "counties": ["Hajdú-Bihar"],
+    "cities": ["Hajdúböszörmény"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$9ZYNrsrzPhkKuSH6Pg3Dpezj2ydv6kQrfZLm/7R6cOH0fOba8t4Ua",
+    "role": 3
+  },
+  {
+    "first_name": "Perry",
+    "last_name": "Gibling",
+    "skill": "Electrician",
+    "user_type": "cég",
+    "email": "pgibling1n@miitbeian.gov.cn",
+    "phone_number": "+45 (967) 112-5638",
+    "counties": ["Fejér"],
+    "cities": ["Gárdony"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$HMtTZJjXxSPYaeHwsJmPqumy6lFUrrJQ.sQKiy5vustPVFbcXsRbC",
+    "role": 2
+  },
+  {
+    "first_name": "Vevay",
+    "last_name": "Agastina",
+    "skill": "Stucco Mason",
+    "user_type": "magánszemély",
+    "email": "vagastina1o@xrea.com",
+    "phone_number": "+63 (688) 446-2601",
+    "counties": ["Fejér"],
+    "cities": ["Dunaújváros"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 16
+    },
+    "password": "$2a$10$ABskYp6maaA6VSh4.INAmOwb1vXeTBBuffAHbyvMM3if1L0i7n8oy",
+    "role": 1
+  },
+  {
+    "first_name": "Carolyne",
+    "last_name": "Rutigliano",
+    "skill": "Painter",
+    "user_type": "magánszemély",
+    "email": "crutigliano1p@cpanel.net",
+    "phone_number": "+55 (605) 154-6902",
+    "counties": ["Tolna"],
+    "cities": ["Dunaföldvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 4,
+      "end": 15
+    },
+    "password": "$2a$10$bgIt5nr5dZgxizeoe4WSneGnD5dgBoiVaz3WD2TFo95AcJuRc1j8y",
+    "role": 2
+  },
+  {
+    "first_name": "Rozelle",
+    "last_name": "New",
+    "skill": "Landscaper",
+    "user_type": "magánszemély",
+    "email": "rnew1q@google.com.br",
+    "phone_number": "+212 (574) 942-4223",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Esztergom"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$EstY1bKoEOfG1lLWKrKMEe48.bfyKB8P5MStBg76JpmuRUZT33mN6",
+    "role": 2
+  },
+  {
+    "first_name": "Jarrid",
+    "last_name": "Bedham",
+    "skill": "Plumber",
+    "user_type": "magánszemély",
+    "email": "jbedham1r@canalblog.com",
+    "phone_number": "+63 (168) 913-4849",
+    "counties": ["Borsod-Abaúj-Zemplén"],
+    "cities": ["Sajószentpéter"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$3wk5GVxvYm2QHvpOJjkz5uSe4a/bMkzv.UT/ol3/RTXqDcw7lXzau",
+    "role": 3
+  },
+  {
+    "first_name": "Darryl",
+    "last_name": "Flindall",
+    "skill": "Painter",
+    "user_type": "magánszemély",
+    "email": "dflindall1s@artisteer.com",
+    "phone_number": "+55 (934) 848-3324",
+    "counties": ["Nógrád"],
+    "cities": ["Bátonyterenye"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$fgzPXpbNdBKIQNdMWW3RV.yq9HVlPp2r9cJ2siM4dto3CV6DGEcMa",
+    "role": 1
+  },
+  {
+    "first_name": "Electra",
+    "last_name": "Redd",
+    "skill": "Plumber",
+    "user_type": "cég",
+    "email": "eredd1t@ameblo.jp",
+    "phone_number": "+33 (974) 877-8149",
+    "counties": ["Veszprém"],
+    "cities": ["Ajka"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 13
+    },
+    "password": "$2a$10$Aii3b60zc2LDqtWlZwXu/.8GvCgmb6z9G.3icMQJF6WZ9OoVgD9LC",
+    "role": 2
+  },
+  {
+    "first_name": "Rutger",
+    "last_name": "Boddis",
+    "skill": "Terrazzo",
+    "user_type": "cég",
+    "email": "rboddis1u@hao123.com",
+    "phone_number": "+86 (605) 718-6089",
+    "counties": ["Tolna"],
+    "cities": ["Dunaföldvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$5RCnNj2Bi742h8OQApc.1OHvSe8PnUP0oWow48gdlbjqL4ISuPsja",
+    "role": 3
+  },
+  {
+    "first_name": "Eddy",
+    "last_name": "Rippin",
+    "skill": "Millwright",
+    "user_type": "cég",
+    "email": "erippin1v@slate.com",
+    "phone_number": "+86 (465) 756-2393",
+    "counties": ["Heves"],
+    "cities": ["Hatvan"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$Qf2S9azFnxv7zTrgY6np6OSdmr9pcTeZVZXDvw916g87o/4jlzIs6",
+    "role": 1
+  },
+  {
+    "first_name": "Vivianna",
+    "last_name": "Cathery",
+    "skill": "Glazier",
+    "user_type": "magánszemély",
+    "email": "vcathery1w@nhs.uk",
+    "phone_number": "+48 (290) 574-4025",
+    "counties": ["Veszprém"],
+    "cities": ["Tapolca"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$eH1kBB40qqXF3tPn7buqxu4uCgbl3TOY0iHeSr2UVnK6E0UpsDB/u",
+    "role": 1
+  },
+  {
+    "first_name": "Charlie",
+    "last_name": "Springle",
+    "skill": "Stucco Mason",
+    "user_type": "magánszemély",
+    "email": "cspringle1x@usa.gov",
+    "phone_number": "+84 (750) 949-4093",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Tatabánya"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$V.t1GzZb85kjZBmTKoDBxucrTI61bPmdYVDN49UY8AOSaTdjbryp.",
+    "role": 3
+  },
+  {
+    "first_name": "Shawnee",
+    "last_name": "Alsina",
+    "skill": "Brickmason",
+    "user_type": "magánszemély",
+    "email": "salsina1y@google.ru",
+    "phone_number": "+1 (205) 814-0305",
+    "counties": ["Tolna"],
+    "cities": ["Szekszárd"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 7,
+      "end": 14
+    },
+    "password": "$2a$10$/y.FXK3JPFgcvzjFKJhOIujsipQbGaIh74haiKSswIQsVHsmDpQuy",
+    "role": 3
+  },
+  {
+    "first_name": "Christean",
+    "last_name": "Bernette",
+    "skill": "Safety Officer",
+    "user_type": "magánszemély",
+    "email": "cbernette1z@biblegateway.com",
+    "phone_number": "+351 (938) 809-8109",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Szeged"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 17
+    },
+    "password": "$2a$10$UxgqZRIWPQH9VkzKLf5TiO1/DVpq0ogIVbn5y5u.RXsnF6d7nYHv.",
+    "role": 1
+  },
+  {
+    "first_name": "Margaux",
+    "last_name": "Danaher",
+    "skill": "Electrician",
+    "user_type": "magánszemély",
+    "email": "mdanaher20@shareasale.com",
+    "phone_number": "+234 (331) 521-6556",
+    "counties": ["Veszprém"],
+    "cities": ["Balatonfüred"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$6EB0JDIZp7iZs0tXH7RZ0OaV/bWCwYrtT.ddwKsGE1BczH4vU2ED2",
+    "role": 3
+  },
+  {
+    "first_name": "Phillie",
+    "last_name": "Lawlee",
+    "skill": "Laborer",
+    "user_type": "egyéni vállalkozó",
+    "email": "plawlee21@google.com.hk",
+    "phone_number": "+56 (694) 626-4730",
+    "counties": ["Tolna"],
+    "cities": ["Bonyhád"],
+    "working_days": {
+      "monday": true,
+      "tuesday": false,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$Gxn50rViCXlI7V4d3vEjfuRly2KPYmNwSC9c0aU29mhCu8jlUViXK",
+    "role": 2
+  },
+  {
+    "first_name": "Darci",
+    "last_name": "Bucky",
+    "skill": "Carpenter",
+    "user_type": "egyéni vállalkozó",
+    "email": "dbucky22@mysql.com",
+    "phone_number": "+55 (466) 275-7492",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Szeged"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 16
+    },
+    "password": "$2a$10$ZPvWXNa6rY6gbj0po6HGN.mY45S8pYCzHNgRlxrq8KvmGnDEPkbny",
+    "role": 2
+  },
+  {
+    "first_name": "Lizzie",
+    "last_name": "Bosse",
+    "skill": "Terrazzo",
+    "user_type": "cég",
+    "email": "lbosse23@yale.edu",
+    "phone_number": "+86 (292) 248-0555",
+    "counties": ["Vas"],
+    "cities": ["Celldömölk"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$F7lnLjqIhvZ418NeOvi7SO2mL97f8VqsfeuqyCayohimIvrYO14oi",
+    "role": 2
+  },
+  {
+    "first_name": "Daryl",
+    "last_name": "Dudny",
+    "skill": "Equipment Operator",
+    "user_type": "egyéni vállalkozó",
+    "email": "ddudny24@utexas.edu",
+    "phone_number": "+962 (134) 175-8807",
+    "counties": ["Jász-Nagykun-Szolnok"],
+    "cities": ["Karcag"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 17
+    },
+    "password": "$2a$10$UVxwPYmCjINGVDcGn6q10.g5vY6kwF5il5uoE8a9XU0adH2gsT5su",
+    "role": 3
+  },
+  {
+    "first_name": "Aluin",
+    "last_name": "Dowsing",
+    "skill": "Electrician",
+    "user_type": "cég",
+    "email": "adowsing25@miitbeian.gov.cn",
+    "phone_number": "+351 (986) 235-9553",
+    "counties": ["Tolna"],
+    "cities": ["Tolna"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$h2kTmV3BoN7FAHwTiRxIYungpV7e4w8HiwwIc6biijrW03MeUlr5a",
+    "role": 3
+  },
+  {
+    "first_name": "Killian",
+    "last_name": "Wendover",
+    "skill": "Painter",
+    "user_type": "egyéni vállalkozó",
+    "email": "kwendover26@domainmarket.com",
+    "phone_number": "+86 (651) 839-9098",
+    "counties": ["Heves"],
+    "cities": ["Gyöngyös"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$V3VIHzzOiF76duDgWUMzUOfR2GWHH.z0kn9gh28bxJdkjuM5DCi.C",
+    "role": 2
+  },
+  {
+    "first_name": "Derk",
+    "last_name": "Ellingford",
+    "skill": "Safety Officer",
+    "user_type": "cég",
+    "email": "dellingford27@gmpg.org",
+    "phone_number": "+86 (192) 300-4746",
+    "counties": ["Csongrád-Csanád"],
+    "cities": ["Hódmezővásárhely"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": false,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$8yOS38X//e28UyhQCX2LYebuGmP1deMcilGQJimxyeI21T0k3z9uy",
+    "role": 2
+  },
+  {
+    "first_name": "Etti",
+    "last_name": "Smylie",
+    "skill": "Concrete Finisher",
+    "user_type": "cég",
+    "email": "esmylie28@networkadvertising.org",
+    "phone_number": "+7 (292) 923-2847",
+    "counties": ["Tolna"],
+    "cities": ["Tolna"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$wIb6kiGn83YmXPGCJ9GwU.xbRO5vY8o0zl1rCXY8wlxcY1XcAlLc2",
+    "role": 1
+  },
+  {
+    "first_name": "Kissie",
+    "last_name": "Miskelly",
+    "skill": "Brickmason",
+    "user_type": "magánszemély",
+    "email": "kmiskelly29@omniture.com",
+    "phone_number": "+52 (100) 654-3657",
+    "counties": ["Jász-Nagykun-Szolnok"],
+    "cities": ["Mezőtúr"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 22,
+      "end": 6
+    },
+    "password": "$2a$10$4Bb4oryRmCr97obJ607V/epmxl35sUIkB03rZnDOtHJ5exkpuCuEy",
+    "role": 1
+  },
+  {
+    "first_name": "Mora",
+    "last_name": "Bowerman",
+    "skill": "Equipment Operator",
+    "user_type": "cég",
+    "email": "mbowerman2a@4shared.com",
+    "phone_number": "+86 (447) 451-1126",
+    "counties": ["Veszprém"],
+    "cities": ["Várpalota"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 14,
+      "end": 20
+    },
+    "password": "$2a$10$LeJpHOkxQyQfqMRZvVeXI.BwzSFLIJ3lESMWe7dRyN7tvM5vRaDI2",
+    "role": 3
+  },
+  {
+    "first_name": "Omero",
+    "last_name": "Eskrigge",
+    "skill": "Pipelayer",
+    "user_type": "cég",
+    "email": "oeskrigge2b@mozilla.org",
+    "phone_number": "+46 (102) 503-8211",
+    "counties": ["Somogy"],
+    "cities": ["Marcali"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$gsNf8DqPCT8LlPe8fsA8PuoQjCJ014mEw0nVLXDZroSpZ77r.b0Uq",
+    "role": 1
+  },
+  {
+    "first_name": "Velvet",
+    "last_name": "Detheridge",
+    "skill": "Plumber",
+    "user_type": "egyéni vállalkozó",
+    "email": "vdetheridge2c@w3.org",
+    "phone_number": "+98 (915) 709-0394",
+    "counties": ["Bács-Kiskun"],
+    "cities": ["Kalocsa"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 14,
+      "end": 22
+    },
+    "password": "$2a$10$nywiK8nnKkWJ1uFi86KzY.Xuyrf4HBoMvIQx80AMBWsnoiLJJ.mlG",
+    "role": 1
+  },
+  {
+    "first_name": "Julissa",
+    "last_name": "Mottinelli",
+    "skill": "Electrician",
+    "user_type": "magánszemély",
+    "email": "jmottinelli2d@reuters.com",
+    "phone_number": "+591 (918) 336-1063",
+    "counties": ["Nógrád"],
+    "cities": ["Salgótarján"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$u7hjgNaac3eKrcDvBLObTerNYNhEUkIOqK/GjCB0fTyYMqWaVTwl2",
+    "role": 3
+  },
+  {
+    "first_name": "Gasparo",
+    "last_name": "Ahren",
+    "skill": "Landscaper",
+    "user_type": "cég",
+    "email": "gahren2e@qq.com",
+    "phone_number": "+970 (163) 423-5313",
+    "counties": ["Pest"],
+    "cities": ["Szentendre"],
+    "working_days": {
+      "monday": true,
+      "tuesday": false,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$G1KmjT.AEWsXQ7xTNsBY9e/V0P3UDDLVhOFSrTdVKwi5mz6cIAZsm",
+    "role": 3
+  },
+  {
+    "first_name": "Missy",
+    "last_name": "Peasee",
+    "skill": "Ironworker",
+    "user_type": "magánszemély",
+    "email": "mpeasee2f@indiatimes.com",
+    "phone_number": "+33 (935) 191-5995",
+    "counties": ["Fejér"],
+    "cities": ["Bicske"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 8,
+      "end": 16
+    },
+    "password": "$2a$10$RPE9tb5vX4YOniyMRV9pKu/OOt3HSU3Iz/C9H0i1WUBnQJK4/Cr12",
+    "role": 3
+  },
+  {
+    "first_name": "Charlotta",
+    "last_name": "Enrigo",
+    "skill": "Glazier",
+    "user_type": "cég",
+    "email": "cenrigo2g@mashable.com",
+    "phone_number": "+242 (593) 601-7770",
+    "counties": ["Vas"],
+    "cities": ["Sárvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$eeOqYlqF9aZB3XAY0dvJSOybLmJR2mh3x.8exWm02jIyHR4DWG9X2",
+    "role": 2
+  },
+  {
+    "first_name": "Hobie",
+    "last_name": "Skoate",
+    "skill": "Concrete Finisher",
+    "user_type": "egyéni vállalkozó",
+    "email": "hskoate2h@nationalgeographic.com",
+    "phone_number": "+86 (213) 313-2333",
+    "counties": ["Komárom-Esztergom"],
+    "cities": ["Komárom"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 10,
+      "end": 15
+    },
+    "password": "$2a$10$aCbhQ4LzZGMIF8PKmNXbLejen5U./lhJ1fkNMW8mzx/SD.nggu19y",
+    "role": 3
+  },
+  {
+    "first_name": "Bird",
+    "last_name": "Jago",
+    "skill": "Millwright",
+    "user_type": "cég",
+    "email": "bjago2i@cbsnews.com",
+    "phone_number": "+86 (440) 582-7270",
+    "counties": ["Vas"],
+    "cities": ["Szombathely"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$4xpZ.PY7ZPOmfL8NpLvaouuQ/FdmOnYqJYcQmkUqTtI1HVdhzpe3y",
+    "role": 2
+  },
+  {
+    "first_name": "Winfred",
+    "last_name": "Durker",
+    "skill": "Electrician",
+    "user_type": "egyéni vállalkozó",
+    "email": "wdurker2j@telegraph.co.uk",
+    "phone_number": "+62 (806) 252-5186",
+    "counties": ["Fejér"],
+    "cities": ["Dunaújváros"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 17,
+      "end": 20
+    },
+    "password": "$2a$10$XyrvouIFV4/vcQwo42yiZObBZzn.INurXhglhjywgLKdanp9Makc6",
+    "role": 3
+  },
+  {
+    "first_name": "Worth",
+    "last_name": "Confait",
+    "skill": "Stucco Mason",
+    "user_type": "cég",
+    "email": "wconfait2k@taobao.com",
+    "phone_number": "+86 (397) 754-5211",
+    "counties": ["Jász-Nagykun-Szolnok"],
+    "cities": ["Tiszaföldvár"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": false,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$dvTSLDGdvaVlR5YPaRPRI.qd160oqiA8LQKzNNTOioH.xZtlTt3iS",
+    "role": 1
+  },
+  {
+    "first_name": "Austin",
+    "last_name": "Boij",
+    "skill": "Pipelayer",
+    "user_type": "egyéni vállalkozó",
+    "email": "aboij2l@naver.com",
+    "phone_number": "+62 (250) 549-4025",
+    "counties": ["Bács-Kiskun"],
+    "cities": ["Kecskemét"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$L66WWwDnbEdq7cT9onS1beAilFVK9HeEnHdMm0bfl2la4CuUJf7vi",
+    "role": 3
+  },
+  {
+    "first_name": "Susana",
+    "last_name": "Hagergham",
+    "skill": "Electrician",
+    "user_type": "egyéni vállalkozó",
+    "email": "shagergham2m@sina.com.cn",
+    "phone_number": "+351 (946) 787-9940",
+    "counties": ["Pest"],
+    "cities": ["Gyál"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 6,
+      "end": 14
+    },
+    "password": "$2a$10$Z5l05ULhyHunlD7d1Nc9GubH8I4gi4OQxJtBKo8OzAlR.2vf1veCO",
+    "role": 2
+  },
+  {
+    "first_name": "Roberta",
+    "last_name": "Gianuzzi",
+    "skill": "Stucco Mason",
+    "user_type": "egyéni vállalkozó",
+    "email": "rgianuzzi2n@blogtalkradio.com",
+    "phone_number": "+86 (295) 723-3610",
+    "counties": ["Győr-Moson-Sopron"],
+    "cities": ["Győr"],
+    "working_days": {
+      "monday": false,
+      "tuesday": true,
+      "wednesday": false,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 3,
+      "end": 6
+    },
+    "password": "$2a$10$xKGV.xWPUwUgFrWBGJoWsuli5EiGvclnB/adyTXGlrJPc43pHGis2",
+    "role": 1
+  },
+  {
+    "first_name": "Lorant",
+    "last_name": "Mannagh",
+    "skill": "Terrazzo",
+    "user_type": "egyéni vállalkozó",
+    "email": "lmannagh2o@about.me",
+    "phone_number": "+351 (248) 842-7291",
+    "counties": ["Heves"],
+    "cities": ["Hatvan"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": false,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$ZzmkTeUl0hU/s4EnvZc7ie5njb9lNe22ULKPcZ1018A4A.BY1myKW",
+    "role": 2
+  },
+  {
+    "first_name": "Cele",
+    "last_name": "Scambler",
+    "skill": "Sheet Metal Worker",
+    "user_type": "egyéni vállalkozó",
+    "email": "cscambler2p@usda.gov",
+    "phone_number": "+92 (880) 668-0955",
+    "counties": ["Jász-Nagykun-Szolnok"],
+    "cities": ["Martfű"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$3dQPvdDyjfEDj3dqaWal.e5EeqY2cZ4PUkqnqUJmJwRsL0qo5KtBu",
+    "role": 1
+  },
+  {
+    "first_name": "Rozanna",
+    "last_name": "Jeandeau",
+    "skill": "Plasterers",
+    "user_type": "egyéni vállalkozó",
+    "email": "rjeandeau2q@auda.org.au",
+    "phone_number": "+381 (890) 356-8280",
+    "counties": ["Vas"],
+    "cities": ["Celldömölk"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$FSYrrUaxmV.FnUjvcOhw2.Mho4IkRBKnhmxjk43WovXn3cN62OKnG",
+    "role": 2
+  },
+  {
+    "first_name": "Merna",
+    "last_name": "Instone",
+    "skill": "Glazier",
+    "user_type": "egyéni vállalkozó",
+    "email": "minstone2r@timesonline.co.uk",
+    "phone_number": "+62 (171) 431-2600",
+    "counties": ["Veszprém"],
+    "cities": ["Pápa"],
+    "working_days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "working_hours": {
+      "start": 9,
+      "end": 15
+    },
+    "password": "$2a$10$W1sGUghZS4aPgIub/uzsKe8Jw4ACBCcaoavZdB4.pJk/nivE.rNXi",
+    "role": 2
+  }
+]
