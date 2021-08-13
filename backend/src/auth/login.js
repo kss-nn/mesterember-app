@@ -14,21 +14,21 @@ const Users = [
 ];
 
 module.exports = (req, res) => {
-    const { username, password } = req.body;
+    const { email, password } = req.body;
 
     const user = Users.find( 
-        user => user.username === username && user.password === password
+        user => user.email === email && user.password === password
     );
 
     if (user) {
         const accessToken = jwt.sign({
-            username: user.username,
+            email: user.email,
             role: user.role
         }, process.env.ACCESS_TOKEN_SECRET);
 
         res.json({ accessToken });
     } else {
-        res.send('Username or password incorrect.');
+        res.send('Email or password incorrect.');
     }
 
 };
