@@ -16,6 +16,9 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { UserNewComponent } from './page/user-new/user-new.component';
 import { MapComponent } from './page/map/map.component';
 import { WorkingHoursComponent } from './page/working-hours/working-hours.component';
+import { CountiesComponent } from './page/counties/counties.component';
+import { CitiesComponent } from './page/cities/cities.component';
+import { SkillsComponent } from './page/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { WorkingHoursComponent } from './page/working-hours/working-hours.compon
     FilterPipe,
     UserNewComponent,
     MapComponent,
-    WorkingHoursComponent
+    WorkingHoursComponent,
+    CountiesComponent,
+    CitiesComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

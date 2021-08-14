@@ -13,7 +13,7 @@ export class ConfigService {
     { label: '📊 Irányítópult', href: '/dashboard', role: 1 },
     { label: '🔨 Mesterek', href: '/users', role: 3 },
     { label: '🗺️ Térkép', href: '/map', role: 1 },
-    { label: '⌚ Ráérések', href: '/working-hours', role: 1 },
+    { label: '⌚ Ráérések', href: '/working-hours', role: 1 }
   ];
 
   userColumns: { key: string | string[], label: string }[] = [
@@ -24,6 +24,23 @@ export class ConfigService {
     { key: 'phone_number', label: 'Telefonszám' },
     { key: 'counties', label: 'Megye' },
     { key: 'cities', label: 'Település' }
+  ];
+
+  countyColumns: { key: string | string[], label: string }[] = [
+    { key: '_id', label: 'ID' },
+    { key: 'name', label: 'Megye' },
+    { key: 'cities', label: 'Városok' }
+  ];
+
+  cityColumns: { key: string | string[], label: string }[] = [
+    { key: '_id', label: 'ID' },
+    { key: 'name', label: 'Város' },
+    { key: 'county', label: 'Megye' }
+  ];
+
+  skillColumns: { key: string | string[], label: string }[] = [
+    { key: '_id', label: 'ID' },
+    { key: 'name', label: 'Szaktudás' }
   ];
 
   constructor() { }
