@@ -33,6 +33,20 @@ export class CountiesComponent implements OnInit {
     );
   }
 
+  onDelete(county: County): void {
+    this.countyService.remove(county)
+      .toPromise().then(
+        county => history.back(), // location.reload() kellene, de akkor újra be kellene jelentkezni...
+        err => {
+          this.serverError = err.error;
+          const to = setTimeout( () => {
+            clearTimeout(to);
+            this.serverError = '';
+          }, 3000);
+        }
+      )
+  }
+
   onChangePhrase(event: Event): void {
     this.phrase = (event.target as HTMLInputElement).value;
   }

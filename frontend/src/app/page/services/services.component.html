@@ -1,0 +1,47 @@
+<div class="row">
+  <!-- Keresés -->
+  <div class="col-12 col-md-6 d-flex mb-3">
+    <input name="phrase" (keyup)="onChangePhrase($event)" class="form-control px-2" type="text"
+      placeholder="Keresés...">
+    <select class="custom-select ml-2 px-2" (change)="onChangeKey($event)">
+      <option *ngFor="let col of cols" [value]="col.key" [selected]="setDefault(col.key)">
+        {{ col.label }} alapján</option>
+    </select>
+  </div>
+  <!-- Új szolgáltatás létrehozása -->
+  <div class="col-12 mb-3">
+    <div class="card my-0 px-3">
+      <button routerLink="/service/new" title="Új szolgáltatás létrehozása" class="btn btn-primary my-3">
+        Új szolgáltatás létrehozása
+      </button>
+    </div>
+    <!-- Táblázat -->
+    <table class="table table-striped table-responsive">
+      <thead>
+        <tr>
+          <th *ngFor="let col of cols">
+            {{ col.label }}
+          </th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let service of list$ | async | filter:phrase:filterKey">
+          <td *ngFor="let col of cols">
+            {{ service[col.key] }}
+          </td>
+          <td>
+            <div class="btn-group">
+              <a class="btn btn-info" routerLink="/service/edit/{{ service._id }}" title="Szolgáltatás szerkesztése">
+                <i class="fa fa-pencil"></i>
+              </a>
+              <a class="btn btn-danger" (click)="onDelete(service)" title="Szolgáltatás törlése">
+                <i class="fa fa-trash"></i>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

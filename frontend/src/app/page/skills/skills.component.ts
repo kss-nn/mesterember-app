@@ -33,6 +33,20 @@ export class SkillsComponent implements OnInit {
     );
   }
 
+  onDelete(skill: Skill): void {
+    this.skillService.remove(skill)
+      .toPromise().then(
+        skill => history.back(), // location.reload() kellene, de akkor újra be kellene jelentkezni...
+        err => {
+          this.serverError = err.error;
+          const to = setTimeout( () => {
+            clearTimeout(to);
+            this.serverError = '';
+          }, 3000);
+        }
+      )
+  }
+
   onChangePhrase(event: Event): void {
     this.phrase = (event.target as HTMLInputElement).value;
   }

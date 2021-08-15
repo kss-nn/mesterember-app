@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-12 col-md-6 offset-md-3">
+    <form #serviceForm="ngForm" (ngSubmit)="onSubmit(serviceForm)" class="form pt-5">
+      <fieldset class="mb-5">
+        <legend class="w-auto text-center pb-2">Szolgáltatás</legend>
+        <!-- Leírás -->
+        <div class="form-group pt-2">
+          <label for="description">Leírás</label>
+          <input
+          type="text"
+          [(ngModel)]="service.description"
+          name="description"
+          class="form-control"
+          pattern="[A-ű].{1,}"
+        ></div>
+        <!-- Kategória -->
+        <div class="form-group pt-2">
+          <label for="category">Kategória</label>
+          <input
+          type="text"
+          [(ngModel)]="service.category"
+          name="category"
+          class="form-control"
+          pattern="[A-ű].{1,}"
+        ></div>
+        <!-- Ár -->
+        <div class="form-group pt-2">
+          <label for="price">Ár (Ft)</label>
+          <input
+          type="number"
+          [(ngModel)]="service.price"
+          name="price"
+          class="form-control"
+        ></div>
+      </fieldset>
+      <!-- Mentés gomb -->
+      <button type="submit" class="btn btn-primary btn-block"
+        [disabled]="serviceForm.invalid">
+        Mentés
+      </button>
+    </form>
+  </div>

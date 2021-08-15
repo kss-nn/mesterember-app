@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-12 col-md-6 offset-md-3">
+    <form #cityForm="ngForm" (ngSubmit)="onSubmit(cityForm)" class="form pt-5">
+      <fieldset class="mb-5">
+        <legend class="w-auto text-center pb-2">Város</legend>
+        <!-- Név -->
+        <div class="form-group pt-2">
+          <label for="name">Név</label>
+          <input
+          type="text"
+          [(ngModel)]="city.name"
+          name="name"
+          class="form-control"
+          pattern="[A-ű].{1,}"
+        ></div>
+        <!-- Megye -->
+        <div class="form-group pt-2">
+          <label for="county">Megye</label>
+          <input
+          type="text"
+          [(ngModel)]="city.county"
+          name="county"
+          class="form-control"
+          pattern="[A-ű].{1,}"
+        ></div>
+      </fieldset>
+      <!-- Mentés gomb -->
+      <button type="submit" class="btn btn-primary btn-block"
+        [disabled]="cityForm.invalid">
+        Mentés
+      </button>
+    </form>
+  </div>

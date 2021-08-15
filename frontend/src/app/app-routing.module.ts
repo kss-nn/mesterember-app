@@ -13,6 +13,15 @@ import { WorkingHoursComponent } from './page/working-hours/working-hours.compon
 import { CountiesComponent } from './page/counties/counties.component';
 import { CitiesComponent } from './page/cities/cities.component';
 import { SkillsComponent } from './page/skills/skills.component';
+import { ServicesComponent } from './page/services/services.component';
+import { ServiceEditComponent } from './page/service-edit/service-edit.component';
+import { CountyEditComponent } from './page/county-edit/county-edit.component';
+import { CityEditComponent } from './page/city-edit/city-edit.component';
+import { SkillEditComponent } from './page/skill-edit/skill-edit.component';
+import { ServiceNewComponent } from './page/service-new/service-new.component';
+import { CountyNewComponent } from './page/county-new/county-new.component';
+import { CityNewComponent } from './page/city-new/city-new.component';
+import { SkillNewComponent } from './page/skill-new/skill-new.component';
 
 const routes: Routes = [
   {
@@ -69,14 +78,86 @@ const routes: Routes = [
     canActivate: [AuthGuardService]
   },
   {
+    path: 'county/new',
+    component: CountyNewComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
+    path: 'county/edit/:id',
+    component: CountyEditComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
     path: 'cities',
     component: CitiesComponent,
     canActivate: [AuthGuardService]
   },
   {
+    path: 'city/new',
+    component: CityNewComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
+    path: 'city/edit/:id',
+    component: CityEditComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
     path: 'skills',
     component: SkillsComponent,
     canActivate: [AuthGuardService]
+  },
+  {
+    path: 'skill/new',
+    component: SkillNewComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
+    path: 'skill/edit/:id',
+    component: SkillEditComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
+    path: 'services',
+    component: ServicesComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
+    path: 'service/new',
+    component: ServiceNewComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
+  },
+  {
+    path: 'service/edit/:id',
+    component: ServiceEditComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3,
+    }
   },
   {
     path: 'forbidden',

@@ -47,6 +47,7 @@ app.use('/users', authenticateJwt, adminOnly, require('./controllers/user/routes
 app.use('/cities', authenticateJwt, require('./controllers/city/routes'));
 app.use('/counties', authenticateJwt, require('./controllers/county/routes'));
 app.use('/skills', authenticateJwt, require('./controllers/skill/routes'));
+app.use('/services', authenticateJwt, require('./controllers/service/routes'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use((err, req, res, next) => {

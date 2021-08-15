@@ -19,6 +19,15 @@ import { WorkingHoursComponent } from './page/working-hours/working-hours.compon
 import { CountiesComponent } from './page/counties/counties.component';
 import { CitiesComponent } from './page/cities/cities.component';
 import { SkillsComponent } from './page/skills/skills.component';
+import { ServicesComponent } from './page/services/services.component';
+import { ServiceEditComponent } from './page/service-edit/service-edit.component';
+import { CountyEditComponent } from './page/county-edit/county-edit.component';
+import { CityEditComponent } from './page/city-edit/city-edit.component';
+import { SkillEditComponent } from './page/skill-edit/skill-edit.component';
+import { ServiceNewComponent } from './page/service-new/service-new.component';
+import { CountyNewComponent } from './page/county-new/county-new.component';
+import { CityNewComponent } from './page/city-new/city-new.component';
+import { SkillNewComponent } from './page/skill-new/skill-new.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +44,16 @@ import { SkillsComponent } from './page/skills/skills.component';
     WorkingHoursComponent,
     CountiesComponent,
     CitiesComponent,
-    SkillsComponent
+    SkillsComponent,
+    ServicesComponent,
+    ServiceEditComponent,
+    CountyEditComponent,
+    CityEditComponent,
+    SkillEditComponent,
+    ServiceNewComponent,
+    CountyNewComponent,
+    CityNewComponent,
+    SkillNewComponent
   ],
   imports: [
     BrowserModule,

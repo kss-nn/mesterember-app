@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-12 col-md-6 offset-md-3">
+    <form #skillForm="ngForm" (ngSubmit)="onSubmit(skillForm)" class="form pt-5">
+      <fieldset class="mb-5">
+        <legend class="w-auto text-center pb-2">Szaktudás</legend>
+        <!-- Név -->
+        <div class="form-group pt-2">
+          <label for="name">Név</label>
+          <input
+          type="text"
+          [(ngModel)]="skill.name"
+          name="name"
+          class="form-control"
+          pattern="[A-ű].{1,}"
+        ></div>
+      </fieldset>
+      <!-- Mentés gomb -->
+      <button type="submit" class="btn btn-primary btn-block"
+        [disabled]="skillForm.invalid">
+        Mentés
+      </button>
+    </form>
+  </div>

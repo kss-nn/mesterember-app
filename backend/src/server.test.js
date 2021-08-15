@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const supertest = require('supertest');
 const config = require('config');
 const User = require('./models/user.model');
+const logger = require('./config/logger')
 const { response } = require('express');
 
 describe('REST API integration tests', () => {
@@ -54,7 +55,6 @@ describe('REST API integration tests', () => {
                     expect(user.email).toBe(insertData[index].email);
                 });
             });
-
     });
 
     test('GET /user/:id', () => {

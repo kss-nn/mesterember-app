@@ -13,7 +13,8 @@ export class ConfigService {
     { label: '📊 Irányítópult', href: '/dashboard', role: 1 },
     { label: '🔨 Mesterek', href: '/users', role: 3 },
     { label: '🗺️ Térkép', href: '/map', role: 1 },
-    { label: '⌚ Ráérések', href: '/working-hours', role: 1 }
+    { label: '⌚ Ráérések', href: '/working-hours', role: 1 },
+    { label: '⚙️ Szolgáltatások', href: '/services', role: 3 },
   ];
 
   userColumns: { key: string | string[], label: string }[] = [
@@ -41,6 +42,13 @@ export class ConfigService {
   skillColumns: { key: string | string[], label: string }[] = [
     { key: '_id', label: 'ID' },
     { key: 'name', label: 'Szaktudás' }
+  ];
+
+  serviceColumns: { key: string | string[], label: string }[] = [
+    { key: '_id', label: 'ID' },
+    { key: 'description', label: 'Leírás' },
+    { key: 'category', label: 'Kategória' },
+    { key: 'price', label: 'Ár (Ft)' }
   ];
 
   constructor() { }

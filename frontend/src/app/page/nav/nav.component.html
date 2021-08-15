@@ -32,13 +32,8 @@
           </i></small>
         </span>
       </li>
-      <!-- <li *ngIf="!user">
-        <a routerLink="/login" class="btn btn-success">
-          <i class="fa fa-sign-in"></i>
-        </a>
-      </li> -->
       <li *ngIf="user" class="ml-3">
-        <button (click)="onLogout()" class="btn btn-info">
+        <button (click)="onLogout()" class="btn btn-info" title="Kijelentkezés">
           <i class="fa fa-sign-out"></i>
         </button>
       </li>

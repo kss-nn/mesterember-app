@@ -1,0 +1,26 @@
+.row {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 30px 0;
+  width: 600px;
+}
+
+input {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+fieldset {
+  outline: 0.5px solid orange;
+  outline-offset: 20px;
+}
+
+.star {
+  color: red
+}
+
+.error-message {
+  color: red;
+  font-size: 0.7em;
+  margin-bottom: 1rem;
+}
