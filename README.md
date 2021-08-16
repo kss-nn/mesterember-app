@@ -1,7 +1,6 @@
 # User Story - Adminisztrátori szerepkör
 ## Mesterember app
----
-Az alkalmazás célja, hogy mesteremberek elérhetőségi és egyéb adatait nyilvántartsa és kezelje.
+> Az alkalmazás célja, hogy mesteremberek elérhetőségi és egyéb adatait nyilvántartsa és kezelje.
 ---
 ### 1. Bejelentkezési oldal
 ---
