@@ -18,14 +18,12 @@ A végpontok beállításait backend esetében egy .env fájlban, frontend eset�
 
 A Docker konténer indítása és inicializálása:
 
-- Ha még nincs telepítve, akkor telepítse a Docker Desktop alkalmazás innen:
-https://hub.docker.com/editions/community/docker-ce-desktop-windows
+- Ha még nincs telepítve, akkor telepítse a Docker Desktop alkalmazás [innen](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 - Indítsa el a Docker Desktop alkalmazást.
 - Lépjen be a /backend mappába a terminálban, és adja ki az `npm run dev` parancsot.  
 (Ha szükséges, a /frontend mappába belépve a terminálban az `npm start` paranccsal indítható a frontend.) 
 
-_Megjegyzés_:  
-A belépéshez egy érvényes e-mail-cím és jelszó páros:  
+A belépéshez e-mail-cím és jelszó párosok:  
 
 E-mail | Jelszó
 ------------ | -------------
@@ -37,8 +35,7 @@ A frontend külön működtetése:
 - JSON server az `npm run server` paranccsal indítható.
 - A frontend az `npm start` paranccsal indítható.
 
-_Megjegyzés_:  
-A belépéshez egy érvényes e-mail-cím és jelszó páros:  
+A belépéshez e-mail-cím és jelszó párosok:  
 
 E-mail | Jelszó
 ------------ | -------------
