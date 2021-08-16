@@ -1,30 +1,56 @@
 ## **1. Az alkalmazás célja**
 
-Az alkalmazás feladata, hogy mesteremberek elérhetőségi és egyéb adatait nyilvántartsa és kezelje.
+Az alkalmazás célja, hogy mesteremberek elérhetőségi és egyéb adatait nyilvántartsa és kezelje.
 
 ## **2. Az alkalmazás telepítése**
 
 - Klónozza le a célgépre a `mesterember-app` nevű GitHub repository tartalmát.
-- Telepítse az alkalmazás függőségeit az `npm i` paranccsal.
+- A terminálban a /backend és a /frontend mappában is telepítse az alkalmazás függőségeit az `npm i` paranccsal.
 - Ha további fejlesztések szükségesek, akkor telepíteni kell az Angular keretrendszert is az `npm i -g @angular/cli` paranccsal.
 
 ## **3. Az alkalmazás konfigurálása**
 
-A _base.service.ts_ állományban be kell állítani az API végpont elérési útvonalát:  
-
-[comment]: <> (Kiegészítés később - pl. http://localhost:3000)
+A végpontok beállításait backend esetében egy .env fájlban, frontend esetében pedig az src/environments/environment.ts fájlban végezhetjük el.​
 
 ## **4. Az alkalmazás indítása**
 
-A megadott Docker container indítása és inicializálása.
+### Backend
 
-[comment]: <> (Kiegészítés később)
+A Docker konténer indítása és inicializálása:
+
+- Ha még nincs telepítve, akkor telepítse a Docker Desktop alkalmazás innen:
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
+- Indítsa el a Docker Desktop alkalmazást.
+- Lépjen be a /backend mappába a terminálban, és adja ki az `npm run dev` parancsot.  
+(Ha szükséges, a /frontend mappába belépve a terminálban az `npm start` paranccsal indítható a frontend.) 
+
+_Megjegyzés_:  
+A belépéshez egy érvényes e-mail-cím és jelszó páros:  
+
+E-mail | Jelszó
+------------ | -------------
+admin@gmail.com (admin) | admin_pw
+user@gmail.com (user) | user_pw
+
+### Frontend
+A frontend külön működtetése:
+- JSON server az `npm run server` paranccsal indítható.
+- A frontend az `npm start` paranccsal indítható.
+
+_Megjegyzés_:  
+A belépéshez egy érvényes e-mail-cím és jelszó páros:  
+
+E-mail | Jelszó
+------------ | -------------
+fextill14@skyrock.com (admin) | test
+bshortall1k@usa.gov (user) | test
 
 ## **5. A végpontok dokumentációja**
 
-[comment]: Swagger (https://)
+A végpontok OpenAPI 3 (Swagger) szabványú specifikációval vannak dokumentálva.
+A Swagger dokumentáció elérhető a /backend/src/docs/swager.yaml fájlban.
+Az API dokumentáció a böngészőben is megtekinthető ezen a címen: https://localhost:3000/api-docs
 
----
 ---
 
 ## **Linkek:**  
